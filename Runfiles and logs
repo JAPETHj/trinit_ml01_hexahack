@@ -1,0 +1,1090 @@
+While normal session results will be saved to : runs/train/exp4
+During save and commit session results will be saved to : runs/train/exp
+In runs/train/exp/weights/best.pt there will the most probable weights for the testing process
+TESTING LOGS:
+detect: weights=['runs/train/exp/weights/best.pt'], source=India/test/images, data=data/coco128.yaml, imgsz=[720, 720], conf_thres=0.4, iou_thres=0.45, max_det=1000, device=, view_img=False, save_txt=False, save_conf=False, save_crop=False, nosave=False, classes=None, agnostic_nms=False, augment=False, visualize=False, update=False, project=runs/detect, name=exp, exist_ok=False, line_thickness=3, hide_labels=False, hide_conf=False, half=False, dnn=False
+YOLOv5 🚀 v6.1-303-gb3ca8d8 Python-3.7.12 torch-1.11.0 CUDA:0 (Tesla T4, 15110MiB)
+
+Fusing layers... 
+YOLOv5s summary: 213 layers, 7031701 parameters, 0 gradients
+WARNING: --img-size [720, 720] must be multiple of max stride 32, updating to [736, 736]
+image 1/1959 /kaggle/working/yolov5/India/test/images/India_000004.jpg: 736x736 Done. (0.016s)
+image 2/1959 /kaggle/working/yolov5/India/test/images/India_000006.jpg: 736x736 Done. (0.017s)
+image 3/1959 /kaggle/working/yolov5/India/test/images/India_000008.jpg: 736x736 1 D20, Done. (0.017s)
+image 4/1959 /kaggle/working/yolov5/India/test/images/India_000009.jpg: 736x736 1 D20, Done. (0.017s)
+image 5/1959 /kaggle/working/yolov5/India/test/images/India_000013.jpg: 736x736 Done. (0.017s)
+image 6/1959 /kaggle/working/yolov5/India/test/images/India_000015.jpg: 736x736 Done. (0.016s)
+image 7/1959 /kaggle/working/yolov5/India/test/images/India_000020.jpg: 736x736 Done. (0.016s)
+image 8/1959 /kaggle/working/yolov5/India/test/images/India_000021.jpg: 736x736 Done. (0.017s)
+image 9/1959 /kaggle/working/yolov5/India/test/images/India_000025.jpg: 736x736 Done. (0.016s)
+image 10/1959 /kaggle/working/yolov5/India/test/images/India_000029.jpg: 736x736 Done. (0.016s)
+image 11/1959 /kaggle/working/yolov5/India/test/images/India_000030.jpg: 736x736 Done. (0.016s)
+image 12/1959 /kaggle/working/yolov5/India/test/images/India_000031.jpg: 736x736 1 D20, Done. (0.016s)
+image 13/1959 /kaggle/working/yolov5/India/test/images/India_000033.jpg: 736x736 1 D20, Done. (0.016s)
+image 14/1959 /kaggle/working/yolov5/India/test/images/India_000034.jpg: 736x736 Done. (0.016s)
+image 15/1959 /kaggle/working/yolov5/India/test/images/India_000045.jpg: 736x736 1 D40, Done. (0.017s)
+image 16/1959 /kaggle/working/yolov5/India/test/images/India_000048.jpg: 736x736 Done. (0.016s)
+image 17/1959 /kaggle/working/yolov5/India/test/images/India_000050.jpg: 736x736 Done. (0.016s)
+image 18/1959 /kaggle/working/yolov5/India/test/images/India_000051.jpg: 736x736 Done. (0.016s)
+image 19/1959 /kaggle/working/yolov5/India/test/images/India_000056.jpg: 736x736 1 D20, Done. (0.016s)
+image 20/1959 /kaggle/working/yolov5/India/test/images/India_000058.jpg: 736x736 1 D44, Done. (0.016s)
+image 21/1959 /kaggle/working/yolov5/India/test/images/India_000060.jpg: 736x736 1 D00, Done. (0.015s)
+image 22/1959 /kaggle/working/yolov5/India/test/images/India_000062.jpg: 736x736 Done. (0.015s)
+image 23/1959 /kaggle/working/yolov5/India/test/images/India_000063.jpg: 736x736 Done. (0.017s)
+image 24/1959 /kaggle/working/yolov5/India/test/images/India_000065.jpg: 736x736 Done. (0.033s)
+image 25/1959 /kaggle/working/yolov5/India/test/images/India_000068.jpg: 736x736 Done. (0.017s)
+image 26/1959 /kaggle/working/yolov5/India/test/images/India_000070.jpg: 736x736 1 D20, Done. (0.014s)
+image 27/1959 /kaggle/working/yolov5/India/test/images/India_000077.jpg: 736x736 Done. (0.014s)
+image 28/1959 /kaggle/working/yolov5/India/test/images/India_000082.jpg: 736x736 2 D40s, Done. (0.016s)
+image 29/1959 /kaggle/working/yolov5/India/test/images/India_000084.jpg: 736x736 1 D01, Done. (0.033s)
+image 30/1959 /kaggle/working/yolov5/India/test/images/India_000091.jpg: 736x736 Done. (0.017s)
+image 31/1959 /kaggle/working/yolov5/India/test/images/India_000094.jpg: 736x736 Done. (0.015s)
+image 32/1959 /kaggle/working/yolov5/India/test/images/India_000097.jpg: 736x736 Done. (0.016s)
+image 33/1959 /kaggle/working/yolov5/India/test/images/India_000098.jpg: 736x736 Done. (0.020s)
+image 34/1959 /kaggle/working/yolov5/India/test/images/India_000100.jpg: 736x736 Done. (0.023s)
+image 35/1959 /kaggle/working/yolov5/India/test/images/India_000120.jpg: 736x736 Done. (0.021s)
+image 36/1959 /kaggle/working/yolov5/India/test/images/India_000122.jpg: 736x736 Done. (0.021s)
+image 37/1959 /kaggle/working/yolov5/India/test/images/India_000137.jpg: 736x736 Done. (0.020s)
+image 38/1959 /kaggle/working/yolov5/India/test/images/India_000139.jpg: 736x736 1 D44, Done. (0.020s)
+image 39/1959 /kaggle/working/yolov5/India/test/images/India_000143.jpg: 736x736 Done. (0.020s)
+image 40/1959 /kaggle/working/yolov5/India/test/images/India_000149.jpg: 736x736 Done. (0.019s)
+image 41/1959 /kaggle/working/yolov5/India/test/images/India_000153.jpg: 736x736 Done. (0.019s)
+image 42/1959 /kaggle/working/yolov5/India/test/images/India_000161.jpg: 736x736 Done. (0.028s)
+image 43/1959 /kaggle/working/yolov5/India/test/images/India_000167.jpg: 736x736 2 D40s, 1 D44, Done. (0.029s)
+image 44/1959 /kaggle/working/yolov5/India/test/images/India_000172.jpg: 736x736 Done. (0.014s)
+image 45/1959 /kaggle/working/yolov5/India/test/images/India_000176.jpg: 736x736 Done. (0.014s)
+image 46/1959 /kaggle/working/yolov5/India/test/images/India_000181.jpg: 736x736 1 D44, Done. (0.027s)
+image 47/1959 /kaggle/working/yolov5/India/test/images/India_000183.jpg: 736x736 1 D00, 1 D20, 1 D40, Done. (0.017s)
+image 48/1959 /kaggle/working/yolov5/India/test/images/India_000185.jpg: 736x736 Done. (0.014s)
+image 49/1959 /kaggle/working/yolov5/India/test/images/India_000192.jpg: 736x736 1 D20, Done. (0.015s)
+image 50/1959 /kaggle/working/yolov5/India/test/images/India_000202.jpg: 736x736 Done. (0.014s)
+image 51/1959 /kaggle/working/yolov5/India/test/images/India_000211.jpg: 736x736 2 D40s, Done. (0.014s)
+image 52/1959 /kaggle/working/yolov5/India/test/images/India_000212.jpg: 736x736 Done. (0.014s)
+image 53/1959 /kaggle/working/yolov5/India/test/images/India_000215.jpg: 736x736 Done. (0.015s)
+image 54/1959 /kaggle/working/yolov5/India/test/images/India_000216.jpg: 736x736 Done. (0.015s)
+image 55/1959 /kaggle/working/yolov5/India/test/images/India_000220.jpg: 736x736 Done. (0.014s)
+image 56/1959 /kaggle/working/yolov5/India/test/images/India_000231.jpg: 736x736 Done. (0.016s)
+image 57/1959 /kaggle/working/yolov5/India/test/images/India_000237.jpg: 736x736 Done. (0.014s)
+image 58/1959 /kaggle/working/yolov5/India/test/images/India_000239.jpg: 736x736 Done. (0.013s)
+image 59/1959 /kaggle/working/yolov5/India/test/images/India_000240.jpg: 736x736 Done. (0.015s)
+image 60/1959 /kaggle/working/yolov5/India/test/images/India_000246.jpg: 736x736 Done. (0.014s)
+image 61/1959 /kaggle/working/yolov5/India/test/images/India_000247.jpg: 736x736 1 D20, 1 D44, Done. (0.014s)
+image 62/1959 /kaggle/working/yolov5/India/test/images/India_000248.jpg: 736x736 Done. (0.016s)
+image 63/1959 /kaggle/working/yolov5/India/test/images/India_000264.jpg: 736x736 Done. (0.014s)
+image 64/1959 /kaggle/working/yolov5/India/test/images/India_000265.jpg: 736x736 Done. (0.013s)
+image 65/1959 /kaggle/working/yolov5/India/test/images/India_000266.jpg: 736x736 1 D20, Done. (0.015s)
+image 66/1959 /kaggle/working/yolov5/India/test/images/India_000277.jpg: 736x736 Done. (0.014s)
+image 67/1959 /kaggle/working/yolov5/India/test/images/India_000284.jpg: 736x736 Done. (0.015s)
+image 68/1959 /kaggle/working/yolov5/India/test/images/India_000287.jpg: 736x736 Done. (0.016s)
+image 69/1959 /kaggle/working/yolov5/India/test/images/India_000296.jpg: 736x736 Done. (0.015s)
+image 70/1959 /kaggle/working/yolov5/India/test/images/India_000307.jpg: 736x736 Done. (0.014s)
+image 71/1959 /kaggle/working/yolov5/India/test/images/India_000322.jpg: 736x736 1 D44, Done. (0.016s)
+image 72/1959 /kaggle/working/yolov5/India/test/images/India_000324.jpg: 736x736 Done. (0.015s)
+image 73/1959 /kaggle/working/yolov5/India/test/images/India_000328.jpg: 736x736 Done. (0.014s)
+image 74/1959 /kaggle/working/yolov5/India/test/images/India_000331.jpg: 736x736 1 D40, Done. (0.015s)
+image 75/1959 /kaggle/working/yolov5/India/test/images/India_000342.jpg: 736x736 1 D40, Done. (0.016s)
+image 76/1959 /kaggle/working/yolov5/India/test/images/India_000344.jpg: 736x736 Done. (0.014s)
+image 77/1959 /kaggle/working/yolov5/India/test/images/India_000355.jpg: 736x736 Done. (0.014s)
+image 78/1959 /kaggle/working/yolov5/India/test/images/India_000357.jpg: 736x736 Done. (0.015s)
+image 79/1959 /kaggle/working/yolov5/India/test/images/India_000360.jpg: 736x736 Done. (0.014s)
+image 80/1959 /kaggle/working/yolov5/India/test/images/India_000364.jpg: 736x736 Done. (0.014s)
+image 81/1959 /kaggle/working/yolov5/India/test/images/India_000370.jpg: 736x736 Done. (0.014s)
+image 82/1959 /kaggle/working/yolov5/India/test/images/India_000374.jpg: 736x736 1 D44, Done. (0.013s)
+image 83/1959 /kaggle/working/yolov5/India/test/images/India_000377.jpg: 736x736 1 D40, Done. (0.014s)
+image 84/1959 /kaggle/working/yolov5/India/test/images/India_000380.jpg: 736x736 1 D40, Done. (0.015s)
+image 85/1959 /kaggle/working/yolov5/India/test/images/India_000381.jpg: 736x736 1 D40, 2 D44s, Done. (0.013s)
+image 86/1959 /kaggle/working/yolov5/India/test/images/India_000386.jpg: 736x736 2 D40s, Done. (0.015s)
+image 87/1959 /kaggle/working/yolov5/India/test/images/India_000388.jpg: 736x736 1 D20, Done. (0.017s)
+image 88/1959 /kaggle/working/yolov5/India/test/images/India_000396.jpg: 736x736 1 D20, Done. (0.015s)
+image 89/1959 /kaggle/working/yolov5/India/test/images/India_000397.jpg: 736x736 Done. (0.015s)
+image 90/1959 /kaggle/working/yolov5/India/test/images/India_000398.jpg: 736x736 Done. (0.014s)
+image 91/1959 /kaggle/working/yolov5/India/test/images/India_000401.jpg: 736x736 Done. (0.015s)
+image 92/1959 /kaggle/working/yolov5/India/test/images/India_000404.jpg: 736x736 Done. (0.014s)
+image 93/1959 /kaggle/working/yolov5/India/test/images/India_000413.jpg: 736x736 1 D20, Done. (0.014s)
+image 94/1959 /kaggle/working/yolov5/India/test/images/India_000419.jpg: 736x736 Done. (0.016s)
+image 95/1959 /kaggle/working/yolov5/India/test/images/India_000422.jpg: 736x736 1 D20, Done. (0.014s)
+image 96/1959 /kaggle/working/yolov5/India/test/images/India_000435.jpg: 736x736 1 D00, Done. (0.013s)
+image 97/1959 /kaggle/working/yolov5/India/test/images/India_000450.jpg: 736x736 Done. (0.016s)
+image 98/1959 /kaggle/working/yolov5/India/test/images/India_000458.jpg: 736x736 1 D20, Done. (0.013s)
+image 99/1959 /kaggle/working/yolov5/India/test/images/India_000460.jpg: 736x736 1 D40, Done. (0.014s)
+image 100/1959 /kaggle/working/yolov5/India/test/images/India_000463.jpg: 736x736 1 D00, Done. (0.014s)
+image 101/1959 /kaggle/working/yolov5/India/test/images/India_000464.jpg: 736x736 Done. (0.014s)
+image 102/1959 /kaggle/working/yolov5/India/test/images/India_000468.jpg: 736x736 Done. (0.014s)
+image 103/1959 /kaggle/working/yolov5/India/test/images/India_000469.jpg: 736x736 1 D20, Done. (0.015s)
+image 104/1959 /kaggle/working/yolov5/India/test/images/India_000479.jpg: 736x736 1 D40, Done. (0.013s)
+image 105/1959 /kaggle/working/yolov5/India/test/images/India_000490.jpg: 736x736 Done. (0.013s)
+image 106/1959 /kaggle/working/yolov5/India/test/images/India_000505.jpg: 736x736 Done. (0.016s)
+image 107/1959 /kaggle/working/yolov5/India/test/images/India_000506.jpg: 736x736 Done. (0.014s)
+image 108/1959 /kaggle/working/yolov5/India/test/images/India_000515.jpg: 736x736 Done. (0.015s)
+image 109/1959 /kaggle/working/yolov5/India/test/images/India_000520.jpg: 736x736 Done. (0.017s)
+image 110/1959 /kaggle/working/yolov5/India/test/images/India_000523.jpg: 736x736 1 D40, Done. (0.014s)
+image 111/1959 /kaggle/working/yolov5/India/test/images/India_000530.jpg: 736x736 Done. (0.013s)
+image 112/1959 /kaggle/working/yolov5/India/test/images/India_000539.jpg: 736x736 1 D40, Done. (0.016s)
+image 113/1959 /kaggle/working/yolov5/India/test/images/India_000541.jpg: 736x736 Done. (0.013s)
+image 114/1959 /kaggle/working/yolov5/India/test/images/India_000547.jpg: 736x736 1 D44, Done. (0.014s)
+image 115/1959 /kaggle/working/yolov5/India/test/images/India_000550.jpg: 736x736 Done. (0.016s)
+image 116/1959 /kaggle/working/yolov5/India/test/images/India_000553.jpg: 736x736 1 D20, 1 D44, Done. (0.013s)
+image 117/1959 /kaggle/working/yolov5/India/test/images/India_000573.jpg: 736x736 2 D44s, Done. (0.013s)
+image 118/1959 /kaggle/working/yolov5/India/test/images/India_000583.jpg: 736x736 Done. (0.015s)
+image 119/1959 /kaggle/working/yolov5/India/test/images/India_000587.jpg: 736x736 3 D40s, Done. (0.013s)
+image 120/1959 /kaggle/working/yolov5/India/test/images/India_000604.jpg: 736x736 1 D20, Done. (0.013s)
+image 121/1959 /kaggle/working/yolov5/India/test/images/India_000607.jpg: 736x736 Done. (0.015s)
+image 122/1959 /kaggle/working/yolov5/India/test/images/India_000610.jpg: 736x736 1 D01, Done. (0.014s)
+image 123/1959 /kaggle/working/yolov5/India/test/images/India_000613.jpg: 736x736 Done. (0.013s)
+image 124/1959 /kaggle/working/yolov5/India/test/images/India_000615.jpg: 736x736 Done. (0.015s)
+image 125/1959 /kaggle/working/yolov5/India/test/images/India_000623.jpg: 736x736 Done. (0.013s)
+image 126/1959 /kaggle/working/yolov5/India/test/images/India_000629.jpg: 736x736 Done. (0.014s)
+image 127/1959 /kaggle/working/yolov5/India/test/images/India_000632.jpg: 736x736 Done. (0.016s)
+image 128/1959 /kaggle/working/yolov5/India/test/images/India_000633.jpg: 736x736 1 D40, Done. (0.013s)
+image 129/1959 /kaggle/working/yolov5/India/test/images/India_000634.jpg: 736x736 1 D40, Done. (0.014s)
+image 130/1959 /kaggle/working/yolov5/India/test/images/India_000640.jpg: 736x736 Done. (0.016s)
+image 131/1959 /kaggle/working/yolov5/India/test/images/India_000641.jpg: 736x736 Done. (0.014s)
+image 132/1959 /kaggle/working/yolov5/India/test/images/India_000645.jpg: 736x736 Done. (0.015s)
+image 133/1959 /kaggle/working/yolov5/India/test/images/India_000650.jpg: 736x736 Done. (0.017s)
+image 134/1959 /kaggle/working/yolov5/India/test/images/India_000658.jpg: 736x736 Done. (0.014s)
+image 135/1959 /kaggle/working/yolov5/India/test/images/India_000660.jpg: 736x736 Done. (0.014s)
+image 136/1959 /kaggle/working/yolov5/India/test/images/India_000664.jpg: 736x736 Done. (0.017s)
+image 137/1959 /kaggle/working/yolov5/India/test/images/India_000666.jpg: 736x736 1 D20, Done. (0.015s)
+image 138/1959 /kaggle/working/yolov5/India/test/images/India_000671.jpg: 736x736 1 D00, 1 D20, Done. (0.014s)
+image 139/1959 /kaggle/working/yolov5/India/test/images/India_000672.jpg: 736x736 Done. (0.016s)
+image 140/1959 /kaggle/working/yolov5/India/test/images/India_000673.jpg: 736x736 Done. (0.015s)
+image 141/1959 /kaggle/working/yolov5/India/test/images/India_000674.jpg: 736x736 1 D00, Done. (0.014s)
+image 142/1959 /kaggle/working/yolov5/India/test/images/India_000686.jpg: 736x736 Done. (0.013s)
+image 143/1959 /kaggle/working/yolov5/India/test/images/India_000687.jpg: 736x736 Done. (0.016s)
+image 144/1959 /kaggle/working/yolov5/India/test/images/India_000689.jpg: 736x736 1 D40, 1 D44, Done. (0.013s)
+image 145/1959 /kaggle/working/yolov5/India/test/images/India_000695.jpg: 736x736 1 D40, Done. (0.013s)
+image 146/1959 /kaggle/working/yolov5/India/test/images/India_000706.jpg: 736x736 Done. (0.016s)
+image 147/1959 /kaggle/working/yolov5/India/test/images/India_000707.jpg: 736x736 3 D01s, Done. (0.013s)
+image 148/1959 /kaggle/working/yolov5/India/test/images/India_000708.jpg: 736x736 1 D00, 2 D20s, 1 D44, Done. (0.014s)
+image 149/1959 /kaggle/working/yolov5/India/test/images/India_000713.jpg: 736x736 Done. (0.016s)
+image 150/1959 /kaggle/working/yolov5/India/test/images/India_000717.jpg: 736x736 Done. (0.014s)
+image 151/1959 /kaggle/working/yolov5/India/test/images/India_000720.jpg: 736x736 Done. (0.013s)
+image 152/1959 /kaggle/working/yolov5/India/test/images/India_000723.jpg: 736x736 2 D40s, Done. (0.016s)
+image 153/1959 /kaggle/working/yolov5/India/test/images/India_000750.jpg: 736x736 2 D44s, Done. (0.013s)
+image 154/1959 /kaggle/working/yolov5/India/test/images/India_000752.jpg: 736x736 Done. (0.014s)
+image 155/1959 /kaggle/working/yolov5/India/test/images/India_000753.jpg: 736x736 Done. (0.016s)
+image 156/1959 /kaggle/working/yolov5/India/test/images/India_000755.jpg: 736x736 Done. (0.013s)
+image 157/1959 /kaggle/working/yolov5/India/test/images/India_000767.jpg: 736x736 Done. (0.013s)
+image 158/1959 /kaggle/working/yolov5/India/test/images/India_000774.jpg: 736x736 Done. (0.014s)
+image 159/1959 /kaggle/working/yolov5/India/test/images/India_000777.jpg: 736x736 Done. (0.014s)
+image 160/1959 /kaggle/working/yolov5/India/test/images/India_000783.jpg: 736x736 Done. (0.014s)
+image 161/1959 /kaggle/working/yolov5/India/test/images/India_000784.jpg: 736x736 Done. (0.014s)
+image 162/1959 /kaggle/working/yolov5/India/test/images/India_000792.jpg: 736x736 Done. (0.014s)
+image 163/1959 /kaggle/working/yolov5/India/test/images/India_000793.jpg: 736x736 1 D00, Done. (0.015s)
+image 164/1959 /kaggle/working/yolov5/India/test/images/India_000795.jpg: 736x736 1 D20, 1 D40, Done. (0.013s)
+image 165/1959 /kaggle/working/yolov5/India/test/images/India_000807.jpg: 736x736 1 D00, 1 D40, Done. (0.014s)
+image 166/1959 /kaggle/working/yolov5/India/test/images/India_000809.jpg: 736x736 Done. (0.015s)
+image 167/1959 /kaggle/working/yolov5/India/test/images/India_000818.jpg: 736x736 Done. (0.013s)
+image 168/1959 /kaggle/working/yolov5/India/test/images/India_000828.jpg: 736x736 Done. (0.014s)
+image 169/1959 /kaggle/working/yolov5/India/test/images/India_000829.jpg: 736x736 Done. (0.016s)
+image 170/1959 /kaggle/working/yolov5/India/test/images/India_000834.jpg: 736x736 Done. (0.017s)
+image 171/1959 /kaggle/working/yolov5/India/test/images/India_000838.jpg: 736x736 2 D20s, Done. (0.015s)
+image 172/1959 /kaggle/working/yolov5/India/test/images/India_000841.jpg: 736x736 1 D44, Done. (0.015s)
+image 173/1959 /kaggle/working/yolov5/India/test/images/India_000843.jpg: 736x736 Done. (0.017s)
+image 174/1959 /kaggle/working/yolov5/India/test/images/India_000845.jpg: 736x736 Done. (0.016s)
+image 175/1959 /kaggle/working/yolov5/India/test/images/India_000854.jpg: 736x736 Done. (0.014s)
+image 176/1959 /kaggle/working/yolov5/India/test/images/India_000868.jpg: 736x736 Done. (0.013s)
+image 177/1959 /kaggle/working/yolov5/India/test/images/India_000871.jpg: 736x736 Done. (0.016s)
+image 178/1959 /kaggle/working/yolov5/India/test/images/India_000875.jpg: 736x736 Done. (0.013s)
+image 179/1959 /kaggle/working/yolov5/India/test/images/India_000876.jpg: 736x736 Done. (0.015s)
+image 180/1959 /kaggle/working/yolov5/India/test/images/India_000878.jpg: 736x736 1 D20, Done. (0.016s)
+image 181/1959 /kaggle/working/yolov5/India/test/images/India_000880.jpg: 736x736 1 D44, Done. (0.014s)
+image 182/1959 /kaggle/working/yolov5/India/test/images/India_000883.jpg: 736x736 Done. (0.015s)
+image 183/1959 /kaggle/working/yolov5/India/test/images/India_000886.jpg: 736x736 Done. (0.016s)
+image 184/1959 /kaggle/working/yolov5/India/test/images/India_000897.jpg: 736x736 Done. (0.014s)
+image 185/1959 /kaggle/working/yolov5/India/test/images/India_000899.jpg: 736x736 Done. (0.014s)
+image 186/1959 /kaggle/working/yolov5/India/test/images/India_000900.jpg: 736x736 Done. (0.016s)
+image 187/1959 /kaggle/working/yolov5/India/test/images/India_000902.jpg: 736x736 Done. (0.013s)
+image 188/1959 /kaggle/working/yolov5/India/test/images/India_000903.jpg: 736x736 1 D40, Done. (0.014s)
+image 189/1959 /kaggle/working/yolov5/India/test/images/India_000904.jpg: 736x736 1 D44, Done. (0.016s)
+image 190/1959 /kaggle/working/yolov5/India/test/images/India_000906.jpg: 736x736 1 D00, Done. (0.014s)
+image 191/1959 /kaggle/working/yolov5/India/test/images/India_000918.jpg: 736x736 1 D00, Done. (0.013s)
+image 192/1959 /kaggle/working/yolov5/India/test/images/India_000929.jpg: 736x736 1 D00, 1 D20, 1 D40, Done. (0.014s)
+image 193/1959 /kaggle/working/yolov5/India/test/images/India_000943.jpg: 736x736 1 D00, 1 D44, Done. (0.014s)
+image 194/1959 /kaggle/working/yolov5/India/test/images/India_000947.jpg: 736x736 1 D44, Done. (0.015s)
+image 195/1959 /kaggle/working/yolov5/India/test/images/India_000950.jpg: 736x736 1 D40, Done. (0.014s)
+image 196/1959 /kaggle/working/yolov5/India/test/images/India_000953.jpg: 736x736 1 D20, Done. (0.017s)
+image 197/1959 /kaggle/working/yolov5/India/test/images/India_000961.jpg: 736x736 Done. (0.014s)
+image 198/1959 /kaggle/working/yolov5/India/test/images/India_000967.jpg: 736x736 Done. (0.015s)
+image 199/1959 /kaggle/working/yolov5/India/test/images/India_000968.jpg: 736x736 1 D20, Done. (0.016s)
+image 200/1959 /kaggle/working/yolov5/India/test/images/India_000974.jpg: 736x736 1 D44, Done. (0.015s)
+image 201/1959 /kaggle/working/yolov5/India/test/images/India_000975.jpg: 736x736 1 D44, Done. (0.014s)
+image 202/1959 /kaggle/working/yolov5/India/test/images/India_000980.jpg: 736x736 Done. (0.013s)
+image 203/1959 /kaggle/working/yolov5/India/test/images/India_000983.jpg: 736x736 2 D44s, Done. (0.017s)
+image 204/1959 /kaggle/working/yolov5/India/test/images/India_000986.jpg: 736x736 Done. (0.015s)
+image 205/1959 /kaggle/working/yolov5/India/test/images/India_000989.jpg: 736x736 Done. (0.014s)
+image 206/1959 /kaggle/working/yolov5/India/test/images/India_001011.jpg: 736x736 Done. (0.016s)
+image 207/1959 /kaggle/working/yolov5/India/test/images/India_001013.jpg: 736x736 Done. (0.014s)
+image 208/1959 /kaggle/working/yolov5/India/test/images/India_001022.jpg: 736x736 Done. (0.014s)
+image 209/1959 /kaggle/working/yolov5/India/test/images/India_001024.jpg: 736x736 Done. (0.016s)
+image 210/1959 /kaggle/working/yolov5/India/test/images/India_001025.jpg: 736x736 Done. (0.015s)
+image 211/1959 /kaggle/working/yolov5/India/test/images/India_001031.jpg: 736x736 1 D40, Done. (0.014s)
+image 212/1959 /kaggle/working/yolov5/India/test/images/India_001034.jpg: 736x736 Done. (0.016s)
+image 213/1959 /kaggle/working/yolov5/India/test/images/India_001039.jpg: 736x736 Done. (0.017s)
+image 214/1959 /kaggle/working/yolov5/India/test/images/India_001043.jpg: 736x736 Done. (0.014s)
+image 215/1959 /kaggle/working/yolov5/India/test/images/India_001062.jpg: 736x736 Done. (0.014s)
+image 216/1959 /kaggle/working/yolov5/India/test/images/India_001073.jpg: 736x736 2 D00s, Done. (0.017s)
+image 217/1959 /kaggle/working/yolov5/India/test/images/India_001091.jpg: 736x736 Done. (0.014s)
+image 218/1959 /kaggle/working/yolov5/India/test/images/India_001092.jpg: 736x736 Done. (0.015s)
+image 219/1959 /kaggle/working/yolov5/India/test/images/India_001106.jpg: 736x736 1 D20, Done. (0.016s)
+image 220/1959 /kaggle/working/yolov5/India/test/images/India_001108.jpg: 736x736 Done. (0.016s)
+image 221/1959 /kaggle/working/yolov5/India/test/images/India_001109.jpg: 736x736 Done. (0.015s)
+image 222/1959 /kaggle/working/yolov5/India/test/images/India_001117.jpg: 736x736 1 D00, Done. (0.015s)
+image 223/1959 /kaggle/working/yolov5/India/test/images/India_001127.jpg: 736x736 2 D44s, Done. (0.017s)
+image 224/1959 /kaggle/working/yolov5/India/test/images/India_001128.jpg: 736x736 2 D00s, Done. (0.016s)
+image 225/1959 /kaggle/working/yolov5/India/test/images/India_001152.jpg: 736x736 2 D44s, Done. (0.014s)
+image 226/1959 /kaggle/working/yolov5/India/test/images/India_001154.jpg: 736x736 2 D00s, 1 D20, Done. (0.015s)
+image 227/1959 /kaggle/working/yolov5/India/test/images/India_001157.jpg: 736x736 Done. (0.017s)
+image 228/1959 /kaggle/working/yolov5/India/test/images/India_001169.jpg: 736x736 1 D00, 1 D20, Done. (0.014s)
+image 229/1959 /kaggle/working/yolov5/India/test/images/India_001170.jpg: 736x736 Done. (0.015s)
+image 230/1959 /kaggle/working/yolov5/India/test/images/India_001172.jpg: 736x736 Done. (0.017s)
+image 231/1959 /kaggle/working/yolov5/India/test/images/India_001177.jpg: 736x736 Done. (0.015s)
+image 232/1959 /kaggle/working/yolov5/India/test/images/India_001178.jpg: 736x736 1 D20, Done. (0.015s)
+image 233/1959 /kaggle/working/yolov5/India/test/images/India_001184.jpg: 736x736 1 D44, Done. (0.015s)
+image 234/1959 /kaggle/working/yolov5/India/test/images/India_001195.jpg: 736x736 Done. (0.015s)
+image 235/1959 /kaggle/working/yolov5/India/test/images/India_001196.jpg: 736x736 1 D00, Done. (0.014s)
+image 236/1959 /kaggle/working/yolov5/India/test/images/India_001197.jpg: 736x736 1 D00, 2 D40s, Done. (0.016s)
+image 237/1959 /kaggle/working/yolov5/India/test/images/India_001202.jpg: 736x736 1 D00, 2 D20s, 1 D40, Done. (0.018s)
+image 238/1959 /kaggle/working/yolov5/India/test/images/India_001205.jpg: 736x736 1 D40, Done. (0.015s)
+image 239/1959 /kaggle/working/yolov5/India/test/images/India_001206.jpg: 736x736 1 D01, Done. (0.015s)
+image 240/1959 /kaggle/working/yolov5/India/test/images/India_001209.jpg: 736x736 Done. (0.014s)
+image 241/1959 /kaggle/working/yolov5/India/test/images/India_001212.jpg: 736x736 Done. (0.016s)
+image 242/1959 /kaggle/working/yolov5/India/test/images/India_001214.jpg: 736x736 Done. (0.016s)
+image 243/1959 /kaggle/working/yolov5/India/test/images/India_001215.jpg: 736x736 Done. (0.015s)
+image 244/1959 /kaggle/working/yolov5/India/test/images/India_001216.jpg: 736x736 Done. (0.017s)
+image 245/1959 /kaggle/working/yolov5/India/test/images/India_001223.jpg: 736x736 Done. (0.016s)
+image 246/1959 /kaggle/working/yolov5/India/test/images/India_001224.jpg: 736x736 2 D44s, Done. (0.016s)
+image 247/1959 /kaggle/working/yolov5/India/test/images/India_001226.jpg: 736x736 1 D00, 3 D40s, Done. (0.014s)
+image 248/1959 /kaggle/working/yolov5/India/test/images/India_001233.jpg: 736x736 2 D00s, Done. (0.017s)
+image 249/1959 /kaggle/working/yolov5/India/test/images/India_001237.jpg: 736x736 Done. (0.014s)
+image 250/1959 /kaggle/working/yolov5/India/test/images/India_001255.jpg: 736x736 1 D00, 3 D40s, Done. (0.015s)
+image 251/1959 /kaggle/working/yolov5/India/test/images/India_001256.jpg: 736x736 Done. (0.014s)
+image 252/1959 /kaggle/working/yolov5/India/test/images/India_001258.jpg: 736x736 Done. (0.018s)
+image 253/1959 /kaggle/working/yolov5/India/test/images/India_001274.jpg: 736x736 Done. (0.014s)
+image 254/1959 /kaggle/working/yolov5/India/test/images/India_001277.jpg: 736x736 1 D20, Done. (0.015s)
+image 255/1959 /kaggle/working/yolov5/India/test/images/India_001280.jpg: 736x736 1 D40, Done. (0.016s)
+image 256/1959 /kaggle/working/yolov5/India/test/images/India_001283.jpg: 736x736 2 D00s, 1 D44, Done. (0.016s)
+image 257/1959 /kaggle/working/yolov5/India/test/images/India_001285.jpg: 736x736 Done. (0.015s)
+image 258/1959 /kaggle/working/yolov5/India/test/images/India_001288.jpg: 736x736 Done. (0.017s)
+image 259/1959 /kaggle/working/yolov5/India/test/images/India_001290.jpg: 736x736 1 D20, Done. (0.015s)
+image 260/1959 /kaggle/working/yolov5/India/test/images/India_001293.jpg: 736x736 Done. (0.015s)
+image 261/1959 /kaggle/working/yolov5/India/test/images/India_001300.jpg: 736x736 Done. (0.014s)
+image 262/1959 /kaggle/working/yolov5/India/test/images/India_001312.jpg: 736x736 1 D44, Done. (0.015s)
+image 263/1959 /kaggle/working/yolov5/India/test/images/India_001317.jpg: 736x736 1 D44, Done. (0.015s)
+image 264/1959 /kaggle/working/yolov5/India/test/images/India_001323.jpg: 736x736 1 D20, Done. (0.015s)
+image 265/1959 /kaggle/working/yolov5/India/test/images/India_001325.jpg: 736x736 Done. (0.016s)
+image 266/1959 /kaggle/working/yolov5/India/test/images/India_001329.jpg: 736x736 3 D40s, Done. (0.015s)
+image 267/1959 /kaggle/working/yolov5/India/test/images/India_001332.jpg: 736x736 Done. (0.014s)
+image 268/1959 /kaggle/working/yolov5/India/test/images/India_001343.jpg: 736x736 1 D40, Done. (0.015s)
+image 269/1959 /kaggle/working/yolov5/India/test/images/India_001347.jpg: 736x736 Done. (0.016s)
+image 270/1959 /kaggle/working/yolov5/India/test/images/India_001354.jpg: 736x736 Done. (0.015s)
+image 271/1959 /kaggle/working/yolov5/India/test/images/India_001356.jpg: 736x736 Done. (0.013s)
+image 272/1959 /kaggle/working/yolov5/India/test/images/India_001360.jpg: 736x736 Done. (0.016s)
+image 273/1959 /kaggle/working/yolov5/India/test/images/India_001369.jpg: 736x736 Done. (0.013s)
+image 274/1959 /kaggle/working/yolov5/India/test/images/India_001371.jpg: 736x736 Done. (0.014s)
+image 275/1959 /kaggle/working/yolov5/India/test/images/India_001379.jpg: 736x736 Done. (0.016s)
+image 276/1959 /kaggle/working/yolov5/India/test/images/India_001382.jpg: 736x736 2 D40s, Done. (0.013s)
+image 277/1959 /kaggle/working/yolov5/India/test/images/India_001391.jpg: 736x736 Done. (0.015s)
+image 278/1959 /kaggle/working/yolov5/India/test/images/India_001395.jpg: 736x736 Done. (0.015s)
+image 279/1959 /kaggle/working/yolov5/India/test/images/India_001399.jpg: 736x736 Done. (0.014s)
+image 280/1959 /kaggle/working/yolov5/India/test/images/India_001406.jpg: 736x736 Done. (0.014s)
+image 281/1959 /kaggle/working/yolov5/India/test/images/India_001412.jpg: 736x736 Done. (0.016s)
+image 282/1959 /kaggle/working/yolov5/India/test/images/India_001416.jpg: 736x736 1 D20, 1 D40, Done. (0.015s)
+image 283/1959 /kaggle/working/yolov5/India/test/images/India_001417.jpg: 736x736 Done. (0.014s)
+image 284/1959 /kaggle/working/yolov5/India/test/images/India_001425.jpg: 736x736 Done. (0.016s)
+image 285/1959 /kaggle/working/yolov5/India/test/images/India_001426.jpg: 736x736 1 D20, Done. (0.014s)
+image 286/1959 /kaggle/working/yolov5/India/test/images/India_001434.jpg: 736x736 Done. (0.015s)
+image 287/1959 /kaggle/working/yolov5/India/test/images/India_001435.jpg: 736x736 Done. (0.017s)
+image 288/1959 /kaggle/working/yolov5/India/test/images/India_001438.jpg: 736x736 Done. (0.015s)
+image 289/1959 /kaggle/working/yolov5/India/test/images/India_001444.jpg: 736x736 1 D00, Done. (0.014s)
+image 290/1959 /kaggle/working/yolov5/India/test/images/India_001447.jpg: 736x736 1 D00, Done. (0.013s)
+image 291/1959 /kaggle/working/yolov5/India/test/images/India_001460.jpg: 736x736 Done. (0.017s)
+image 292/1959 /kaggle/working/yolov5/India/test/images/India_001462.jpg: 736x736 1 D20, Done. (0.014s)
+image 293/1959 /kaggle/working/yolov5/India/test/images/India_001468.jpg: 736x736 Done. (0.015s)
+image 294/1959 /kaggle/working/yolov5/India/test/images/India_001469.jpg: 736x736 Done. (0.017s)
+image 295/1959 /kaggle/working/yolov5/India/test/images/India_001483.jpg: 736x736 Done. (0.015s)
+image 296/1959 /kaggle/working/yolov5/India/test/images/India_001500.jpg: 736x736 Done. (0.013s)
+image 297/1959 /kaggle/working/yolov5/India/test/images/India_001501.jpg: 736x736 1 D40, Done. (0.015s)
+image 298/1959 /kaggle/working/yolov5/India/test/images/India_001504.jpg: 736x736 Done. (0.015s)
+image 299/1959 /kaggle/working/yolov5/India/test/images/India_001509.jpg: 736x736 Done. (0.015s)
+image 300/1959 /kaggle/working/yolov5/India/test/images/India_001515.jpg: 736x736 1 D44, Done. (0.016s)
+image 301/1959 /kaggle/working/yolov5/India/test/images/India_001519.jpg: 736x736 Done. (0.013s)
+image 302/1959 /kaggle/working/yolov5/India/test/images/India_001520.jpg: 736x736 Done. (0.014s)
+image 303/1959 /kaggle/working/yolov5/India/test/images/India_001522.jpg: 736x736 Done. (0.015s)
+image 304/1959 /kaggle/working/yolov5/India/test/images/India_001523.jpg: 736x736 1 D44, Done. (0.013s)
+image 305/1959 /kaggle/working/yolov5/India/test/images/India_001529.jpg: 736x736 1 D00, Done. (0.013s)
+image 306/1959 /kaggle/working/yolov5/India/test/images/India_001530.jpg: 736x736 Done. (0.015s)
+image 307/1959 /kaggle/working/yolov5/India/test/images/India_001532.jpg: 736x736 Done. (0.013s)
+image 308/1959 /kaggle/working/yolov5/India/test/images/India_001535.jpg: 736x736 Done. (0.013s)
+image 309/1959 /kaggle/working/yolov5/India/test/images/India_001538.jpg: 736x736 1 D00, 1 D44, Done. (0.014s)
+image 310/1959 /kaggle/working/yolov5/India/test/images/India_001540.jpg: 736x736 Done. (0.014s)
+image 311/1959 /kaggle/working/yolov5/India/test/images/India_001543.jpg: 736x736 Done. (0.013s)
+image 312/1959 /kaggle/working/yolov5/India/test/images/India_001554.jpg: 736x736 1 D44, Done. (0.016s)
+image 313/1959 /kaggle/working/yolov5/India/test/images/India_001557.jpg: 736x736 Done. (0.014s)
+image 314/1959 /kaggle/working/yolov5/India/test/images/India_001562.jpg: 736x736 Done. (0.015s)
+image 315/1959 /kaggle/working/yolov5/India/test/images/India_001564.jpg: 736x736 Done. (0.016s)
+image 316/1959 /kaggle/working/yolov5/India/test/images/India_001568.jpg: 736x736 Done. (0.014s)
+image 317/1959 /kaggle/working/yolov5/India/test/images/India_001570.jpg: 736x736 Done. (0.028s)
+image 318/1959 /kaggle/working/yolov5/India/test/images/India_001577.jpg: 736x736 1 D00, Done. (0.034s)
+image 319/1959 /kaggle/working/yolov5/India/test/images/India_001600.jpg: 736x736 2 D40s, Done. (0.021s)
+image 320/1959 /kaggle/working/yolov5/India/test/images/India_001602.jpg: 736x736 Done. (0.025s)
+image 321/1959 /kaggle/working/yolov5/India/test/images/India_001608.jpg: 736x736 Done. (0.021s)
+image 322/1959 /kaggle/working/yolov5/India/test/images/India_001613.jpg: 736x736 Done. (0.032s)
+image 323/1959 /kaggle/working/yolov5/India/test/images/India_001614.jpg: 736x736 1 D40, 1 D44, Done. (0.025s)
+image 324/1959 /kaggle/working/yolov5/India/test/images/India_001615.jpg: 736x736 1 D40, Done. (0.022s)
+image 325/1959 /kaggle/working/yolov5/India/test/images/India_001624.jpg: 736x736 1 D20, Done. (0.022s)
+image 326/1959 /kaggle/working/yolov5/India/test/images/India_001628.jpg: 736x736 Done. (0.022s)
+image 327/1959 /kaggle/working/yolov5/India/test/images/India_001632.jpg: 736x736 3 D40s, Done. (0.026s)
+image 328/1959 /kaggle/working/yolov5/India/test/images/India_001638.jpg: 736x736 Done. (0.025s)
+image 329/1959 /kaggle/working/yolov5/India/test/images/India_001639.jpg: 736x736 Done. (0.022s)
+image 330/1959 /kaggle/working/yolov5/India/test/images/India_001641.jpg: 736x736 Done. (0.032s)
+image 331/1959 /kaggle/working/yolov5/India/test/images/India_001643.jpg: 736x736 Done. (0.048s)
+image 332/1959 /kaggle/working/yolov5/India/test/images/India_001645.jpg: 736x736 1 D00, Done. (0.046s)
+image 333/1959 /kaggle/working/yolov5/India/test/images/India_001650.jpg: 736x736 1 D00, Done. (0.040s)
+image 334/1959 /kaggle/working/yolov5/India/test/images/India_001654.jpg: 736x736 1 D00, Done. (0.043s)
+image 335/1959 /kaggle/working/yolov5/India/test/images/India_001671.jpg: 736x736 Done. (0.041s)
+image 336/1959 /kaggle/working/yolov5/India/test/images/India_001674.jpg: 736x736 Done. (0.048s)
+image 337/1959 /kaggle/working/yolov5/India/test/images/India_001675.jpg: 736x736 Done. (0.045s)
+image 338/1959 /kaggle/working/yolov5/India/test/images/India_001688.jpg: 736x736 Done. (0.036s)
+image 339/1959 /kaggle/working/yolov5/India/test/images/India_001699.jpg: 736x736 Done. (0.026s)
+image 340/1959 /kaggle/working/yolov5/India/test/images/India_001705.jpg: 736x736 Done. (0.018s)
+image 341/1959 /kaggle/working/yolov5/India/test/images/India_001707.jpg: 736x736 2 D00s, Done. (0.016s)
+image 342/1959 /kaggle/working/yolov5/India/test/images/India_001710.jpg: 736x736 Done. (0.016s)
+image 343/1959 /kaggle/working/yolov5/India/test/images/India_001718.jpg: 736x736 Done. (0.016s)
+image 344/1959 /kaggle/working/yolov5/India/test/images/India_001721.jpg: 736x736 Done. (0.017s)
+image 345/1959 /kaggle/working/yolov5/India/test/images/India_001725.jpg: 736x736 Done. (0.016s)
+image 346/1959 /kaggle/working/yolov5/India/test/images/India_001726.jpg: 736x736 Done. (0.016s)
+image 347/1959 /kaggle/working/yolov5/India/test/images/India_001731.jpg: 736x736 1 D20, Done. (0.016s)
+image 348/1959 /kaggle/working/yolov5/India/test/images/India_001738.jpg: 736x736 1 D44, Done. (0.017s)
+image 349/1959 /kaggle/working/yolov5/India/test/images/India_001742.jpg: 736x736 Done. (0.016s)
+image 350/1959 /kaggle/working/yolov5/India/test/images/India_001754.jpg: 736x736 2 D44s, Done. (0.015s)
+image 351/1959 /kaggle/working/yolov5/India/test/images/India_001758.jpg: 736x736 Done. (0.018s)
+image 352/1959 /kaggle/working/yolov5/India/test/images/India_001761.jpg: 736x736 1 D44, Done. (0.018s)
+image 353/1959 /kaggle/working/yolov5/India/test/images/India_001762.jpg: 736x736 1 D44, Done. (0.015s)
+image 354/1959 /kaggle/working/yolov5/India/test/images/India_001763.jpg: 736x736 Done. (0.015s)
+image 355/1959 /kaggle/working/yolov5/India/test/images/India_001770.jpg: 736x736 1 D20, 1 D40, Done. (0.016s)
+image 356/1959 /kaggle/working/yolov5/India/test/images/India_001771.jpg: 736x736 Done. (0.016s)
+image 357/1959 /kaggle/working/yolov5/India/test/images/India_001781.jpg: 736x736 Done. (0.015s)
+image 358/1959 /kaggle/working/yolov5/India/test/images/India_001784.jpg: 736x736 Done. (0.015s)
+image 359/1959 /kaggle/working/yolov5/India/test/images/India_001790.jpg: 736x736 1 D00, 2 D20s, 2 D40s, Done. (0.017s)
+image 360/1959 /kaggle/working/yolov5/India/test/images/India_001796.jpg: 736x736 8 D01s, Done. (0.015s)
+image 361/1959 /kaggle/working/yolov5/India/test/images/India_001797.jpg: 736x736 Done. (0.017s)
+image 362/1959 /kaggle/working/yolov5/India/test/images/India_001801.jpg: 736x736 Done. (0.015s)
+image 363/1959 /kaggle/working/yolov5/India/test/images/India_001805.jpg: 736x736 1 D00, Done. (0.016s)
+image 364/1959 /kaggle/working/yolov5/India/test/images/India_001806.jpg: 736x736 Done. (0.014s)
+image 365/1959 /kaggle/working/yolov5/India/test/images/India_001814.jpg: 736x736 1 D44, Done. (0.015s)
+image 366/1959 /kaggle/working/yolov5/India/test/images/India_001818.jpg: 736x736 1 D40, Done. (0.017s)
+image 367/1959 /kaggle/working/yolov5/India/test/images/India_001824.jpg: 736x736 Done. (0.015s)
+image 368/1959 /kaggle/working/yolov5/India/test/images/India_001825.jpg: 736x736 Done. (0.016s)
+image 369/1959 /kaggle/working/yolov5/India/test/images/India_001828.jpg: 736x736 Done. (0.016s)
+image 370/1959 /kaggle/working/yolov5/India/test/images/India_001847.jpg: 736x736 Done. (0.018s)
+image 371/1959 /kaggle/working/yolov5/India/test/images/India_001862.jpg: 736x736 1 D44, Done. (0.017s)
+image 372/1959 /kaggle/working/yolov5/India/test/images/India_001871.jpg: 736x736 Done. (0.016s)
+image 373/1959 /kaggle/working/yolov5/India/test/images/India_001874.jpg: 736x736 Done. (0.016s)
+image 374/1959 /kaggle/working/yolov5/India/test/images/India_001875.jpg: 736x736 1 D40, Done. (0.017s)
+image 375/1959 /kaggle/working/yolov5/India/test/images/India_001882.jpg: 736x736 5 D40s, Done. (0.014s)
+image 376/1959 /kaggle/working/yolov5/India/test/images/India_001885.jpg: 736x736 1 D20, 1 D40, Done. (0.015s)
+image 377/1959 /kaggle/working/yolov5/India/test/images/India_001891.jpg: 736x736 Done. (0.016s)
+image 378/1959 /kaggle/working/yolov5/India/test/images/India_001895.jpg: 736x736 Done. (0.017s)
+image 379/1959 /kaggle/working/yolov5/India/test/images/India_001898.jpg: 736x736 2 D20s, Done. (0.016s)
+image 380/1959 /kaggle/working/yolov5/India/test/images/India_001899.jpg: 736x736 Done. (0.016s)
+image 381/1959 /kaggle/working/yolov5/India/test/images/India_001901.jpg: 736x736 Done. (0.015s)
+image 382/1959 /kaggle/working/yolov5/India/test/images/India_001920.jpg: 736x736 1 D40, Done. (0.017s)
+image 383/1959 /kaggle/working/yolov5/India/test/images/India_001921.jpg: 736x736 1 D40, Done. (0.015s)
+image 384/1959 /kaggle/working/yolov5/India/test/images/India_001926.jpg: 736x736 Done. (0.015s)
+image 385/1959 /kaggle/working/yolov5/India/test/images/India_001931.jpg: 736x736 Done. (0.017s)
+image 386/1959 /kaggle/working/yolov5/India/test/images/India_001937.jpg: 736x736 Done. (0.016s)
+image 387/1959 /kaggle/working/yolov5/India/test/images/India_001938.jpg: 736x736 1 D40, Done. (0.015s)
+image 388/1959 /kaggle/working/yolov5/India/test/images/India_001940.jpg: 736x736 1 D00, 1 D20, Done. (0.015s)
+image 389/1959 /kaggle/working/yolov5/India/test/images/India_001942.jpg: 736x736 Done. (0.016s)
+image 390/1959 /kaggle/working/yolov5/India/test/images/India_001947.jpg: 736x736 Done. (0.015s)
+image 391/1959 /kaggle/working/yolov5/India/test/images/India_001950.jpg: 736x736 1 D20, Done. (0.015s)
+image 392/1959 /kaggle/working/yolov5/India/test/images/India_001951.jpg: 736x736 Done. (0.016s)
+image 393/1959 /kaggle/working/yolov5/India/test/images/India_001961.jpg: 736x736 Done. (0.017s)
+image 394/1959 /kaggle/working/yolov5/India/test/images/India_001965.jpg: 736x736 Done. (0.016s)
+image 395/1959 /kaggle/working/yolov5/India/test/images/India_001968.jpg: 736x736 1 D00, Done. (0.017s)
+image 396/1959 /kaggle/working/yolov5/India/test/images/India_001973.jpg: 736x736 Done. (0.018s)
+image 397/1959 /kaggle/working/yolov5/India/test/images/India_001976.jpg: 736x736 1 D40, Done. (0.018s)
+image 398/1959 /kaggle/working/yolov5/India/test/images/India_001991.jpg: 736x736 Done. (0.016s)
+image 399/1959 /kaggle/working/yolov5/India/test/images/India_001997.jpg: 736x736 Done. (0.015s)
+image 400/1959 /kaggle/working/yolov5/India/test/images/India_002001.jpg: 736x736 1 D20, Done. (0.018s)
+image 401/1959 /kaggle/working/yolov5/India/test/images/India_002012.jpg: 736x736 Done. (0.016s)
+image 402/1959 /kaggle/working/yolov5/India/test/images/India_002016.jpg: 736x736 Done. (0.016s)
+image 403/1959 /kaggle/working/yolov5/India/test/images/India_002019.jpg: 736x736 1 D20, Done. (0.016s)
+image 404/1959 /kaggle/working/yolov5/India/test/images/India_002036.jpg: 736x736 Done. (0.019s)
+image 405/1959 /kaggle/working/yolov5/India/test/images/India_002037.jpg: 736x736 1 D20, Done. (0.015s)
+image 406/1959 /kaggle/working/yolov5/India/test/images/India_002038.jpg: 736x736 1 D44, Done. (0.015s)
+image 407/1959 /kaggle/working/yolov5/India/test/images/India_002041.jpg: 736x736 Done. (0.016s)
+image 408/1959 /kaggle/working/yolov5/India/test/images/India_002042.jpg: 736x736 Done. (0.018s)
+image 409/1959 /kaggle/working/yolov5/India/test/images/India_002043.jpg: 736x736 Done. (0.016s)
+image 410/1959 /kaggle/working/yolov5/India/test/images/India_002053.jpg: 736x736 Done. (0.015s)
+image 411/1959 /kaggle/working/yolov5/India/test/images/India_002054.jpg: 736x736 1 D00, Done. (0.016s)
+image 412/1959 /kaggle/working/yolov5/India/test/images/India_002055.jpg: 736x736 4 D40s, Done. (0.018s)
+image 413/1959 /kaggle/working/yolov5/India/test/images/India_002058.jpg: 736x736 Done. (0.016s)
+image 414/1959 /kaggle/working/yolov5/India/test/images/India_002073.jpg: 736x736 Done. (0.014s)
+image 415/1959 /kaggle/working/yolov5/India/test/images/India_002081.jpg: 736x736 1 D00, Done. (0.017s)
+image 416/1959 /kaggle/working/yolov5/India/test/images/India_002083.jpg: 736x736 Done. (0.017s)
+image 417/1959 /kaggle/working/yolov5/India/test/images/India_002086.jpg: 736x736 Done. (0.014s)
+image 418/1959 /kaggle/working/yolov5/India/test/images/India_002090.jpg: 736x736 Done. (0.018s)
+image 419/1959 /kaggle/working/yolov5/India/test/images/India_002091.jpg: 736x736 Done. (0.018s)
+image 420/1959 /kaggle/working/yolov5/India/test/images/India_002104.jpg: 736x736 Done. (0.017s)
+image 421/1959 /kaggle/working/yolov5/India/test/images/India_002108.jpg: 736x736 1 D00, Done. (0.016s)
+image 422/1959 /kaggle/working/yolov5/India/test/images/India_002116.jpg: 736x736 Done. (0.016s)
+image 423/1959 /kaggle/working/yolov5/India/test/images/India_002120.jpg: 736x736 Done. (0.019s)
+image 424/1959 /kaggle/working/yolov5/India/test/images/India_002123.jpg: 736x736 Done. (0.018s)
+image 425/1959 /kaggle/working/yolov5/India/test/images/India_002131.jpg: 736x736 Done. (0.016s)
+image 426/1959 /kaggle/working/yolov5/India/test/images/India_002147.jpg: 736x736 1 D20, 3 D40s, Done. (0.017s)
+image 427/1959 /kaggle/working/yolov5/India/test/images/India_002151.jpg: 736x736 1 D00, 1 D44, Done. (0.016s)
+image 428/1959 /kaggle/working/yolov5/India/test/images/India_002157.jpg: 736x736 Done. (0.018s)
+image 429/1959 /kaggle/working/yolov5/India/test/images/India_002158.jpg: 736x736 Done. (0.016s)
+image 430/1959 /kaggle/working/yolov5/India/test/images/India_002159.jpg: 736x736 1 D20, Done. (0.016s)
+image 431/1959 /kaggle/working/yolov5/India/test/images/India_002160.jpg: 736x736 Done. (0.016s)
+image 432/1959 /kaggle/working/yolov5/India/test/images/India_002170.jpg: 736x736 Done. (0.016s)
+image 433/1959 /kaggle/working/yolov5/India/test/images/India_002181.jpg: 736x736 3 D00s, Done. (0.015s)
+image 434/1959 /kaggle/working/yolov5/India/test/images/India_002185.jpg: 736x736 Done. (0.015s)
+image 435/1959 /kaggle/working/yolov5/India/test/images/India_002190.jpg: 736x736 Done. (0.015s)
+image 436/1959 /kaggle/working/yolov5/India/test/images/India_002193.jpg: 736x736 2 D01s, Done. (0.015s)
+image 437/1959 /kaggle/working/yolov5/India/test/images/India_002195.jpg: 736x736 1 D44, Done. (0.015s)
+image 438/1959 /kaggle/working/yolov5/India/test/images/India_002196.jpg: 736x736 Done. (0.015s)
+image 439/1959 /kaggle/working/yolov5/India/test/images/India_002199.jpg: 736x736 Done. (0.017s)
+image 440/1959 /kaggle/working/yolov5/India/test/images/India_002202.jpg: 736x736 1 D00, Done. (0.015s)
+image 441/1959 /kaggle/working/yolov5/India/test/images/India_002221.jpg: 736x736 1 D20, 1 D40, Done. (0.015s)
+image 442/1959 /kaggle/working/yolov5/India/test/images/India_002232.jpg: 736x736 1 D40, Done. (0.016s)
+image 443/1959 /kaggle/working/yolov5/India/test/images/India_002234.jpg: 736x736 1 D20, Done. (0.015s)
+image 444/1959 /kaggle/working/yolov5/India/test/images/India_002240.jpg: 736x736 Done. (0.014s)
+image 445/1959 /kaggle/working/yolov5/India/test/images/India_002241.jpg: 736x736 Done. (0.015s)
+image 446/1959 /kaggle/working/yolov5/India/test/images/India_002243.jpg: 736x736 Done. (0.017s)
+image 447/1959 /kaggle/working/yolov5/India/test/images/India_002257.jpg: 736x736 1 D44, Done. (0.014s)
+image 448/1959 /kaggle/working/yolov5/India/test/images/India_002258.jpg: 736x736 1 D44, Done. (0.014s)
+image 449/1959 /kaggle/working/yolov5/India/test/images/India_002259.jpg: 736x736 Done. (0.016s)
+image 450/1959 /kaggle/working/yolov5/India/test/images/India_002260.jpg: 736x736 1 D44, Done. (0.015s)
+image 451/1959 /kaggle/working/yolov5/India/test/images/India_002266.jpg: 736x736 Done. (0.015s)
+image 452/1959 /kaggle/working/yolov5/India/test/images/India_002270.jpg: 736x736 3 D40s, Done. (0.015s)
+image 453/1959 /kaggle/working/yolov5/India/test/images/India_002276.jpg: 736x736 Done. (0.016s)
+image 454/1959 /kaggle/working/yolov5/India/test/images/India_002277.jpg: 736x736 1 D20, Done. (0.014s)
+image 455/1959 /kaggle/working/yolov5/India/test/images/India_002289.jpg: 736x736 Done. (0.015s)
+image 456/1959 /kaggle/working/yolov5/India/test/images/India_002291.jpg: 736x736 1 D00, Done. (0.016s)
+image 457/1959 /kaggle/working/yolov5/India/test/images/India_002294.jpg: 736x736 1 D44, Done. (0.015s)
+image 458/1959 /kaggle/working/yolov5/India/test/images/India_002295.jpg: 736x736 Done. (0.015s)
+image 459/1959 /kaggle/working/yolov5/India/test/images/India_002302.jpg: 736x736 Done. (0.014s)
+image 460/1959 /kaggle/working/yolov5/India/test/images/India_002306.jpg: 736x736 1 D20, Done. (0.016s)
+image 461/1959 /kaggle/working/yolov5/India/test/images/India_002313.jpg: 736x736 Done. (0.015s)
+image 462/1959 /kaggle/working/yolov5/India/test/images/India_002314.jpg: 736x736 Done. (0.014s)
+image 463/1959 /kaggle/working/yolov5/India/test/images/India_002316.jpg: 736x736 Done. (0.016s)
+image 464/1959 /kaggle/working/yolov5/India/test/images/India_002328.jpg: 736x736 1 D44, Done. (0.015s)
+image 465/1959 /kaggle/working/yolov5/India/test/images/India_002335.jpg: 736x736 Done. (0.015s)
+image 466/1959 /kaggle/working/yolov5/India/test/images/India_002338.jpg: 736x736 Done. (0.015s)
+image 467/1959 /kaggle/working/yolov5/India/test/images/India_002353.jpg: 736x736 1 D44, Done. (0.018s)
+image 468/1959 /kaggle/working/yolov5/India/test/images/India_002355.jpg: 736x736 Done. (0.014s)
+image 469/1959 /kaggle/working/yolov5/India/test/images/India_002359.jpg: 736x736 Done. (0.015s)
+image 470/1959 /kaggle/working/yolov5/India/test/images/India_002362.jpg: 736x736 2 D00s, Done. (0.017s)
+image 471/1959 /kaggle/working/yolov5/India/test/images/India_002365.jpg: 736x736 1 D20, Done. (0.015s)
+image 472/1959 /kaggle/working/yolov5/India/test/images/India_002367.jpg: 736x736 Done. (0.014s)
+image 473/1959 /kaggle/working/yolov5/India/test/images/India_002370.jpg: 736x736 Done. (0.015s)
+image 474/1959 /kaggle/working/yolov5/India/test/images/India_002374.jpg: 736x736 Done. (0.014s)
+image 475/1959 /kaggle/working/yolov5/India/test/images/India_002375.jpg: 736x736 Done. (0.014s)
+image 476/1959 /kaggle/working/yolov5/India/test/images/India_002377.jpg: 736x736 1 D40, Done. (0.016s)
+image 477/1959 /kaggle/working/yolov5/India/test/images/India_002382.jpg: 736x736 Done. (0.014s)
+image 478/1959 /kaggle/working/yolov5/India/test/images/India_002389.jpg: 736x736 Done. (0.015s)
+image 479/1959 /kaggle/working/yolov5/India/test/images/India_002391.jpg: 736x736 1 D40, Done. (0.015s)
+image 480/1959 /kaggle/working/yolov5/India/test/images/India_002399.jpg: 736x736 1 D20, Done. (0.015s)
+image 481/1959 /kaggle/working/yolov5/India/test/images/India_002403.jpg: 736x736 Done. (0.015s)
+image 482/1959 /kaggle/working/yolov5/India/test/images/India_002408.jpg: 736x736 Done. (0.014s)
+image 483/1959 /kaggle/working/yolov5/India/test/images/India_002414.jpg: 736x736 1 D20, Done. (0.017s)
+image 484/1959 /kaggle/working/yolov5/India/test/images/India_002415.jpg: 736x736 Done. (0.015s)
+image 485/1959 /kaggle/working/yolov5/India/test/images/India_002420.jpg: 736x736 Done. (0.016s)
+image 486/1959 /kaggle/working/yolov5/India/test/images/India_002422.jpg: 736x736 Done. (0.016s)
+image 487/1959 /kaggle/working/yolov5/India/test/images/India_002423.jpg: 736x736 Done. (0.015s)
+image 488/1959 /kaggle/working/yolov5/India/test/images/India_002424.jpg: 736x736 1 D20, Done. (0.015s)
+image 489/1959 /kaggle/working/yolov5/India/test/images/India_002425.jpg: 736x736 1 D40, Done. (0.014s)
+image 490/1959 /kaggle/working/yolov5/India/test/images/India_002427.jpg: 736x736 1 D44, Done. (0.016s)
+image 491/1959 /kaggle/working/yolov5/India/test/images/India_002430.jpg: 736x736 Done. (0.015s)
+image 492/1959 /kaggle/working/yolov5/India/test/images/India_002440.jpg: 736x736 Done. (0.014s)
+image 493/1959 /kaggle/working/yolov5/India/test/images/India_002441.jpg: 736x736 Done. (0.016s)
+image 494/1959 /kaggle/working/yolov5/India/test/images/India_002442.jpg: 736x736 Done. (0.015s)
+image 495/1959 /kaggle/working/yolov5/India/test/images/India_002444.jpg: 736x736 Done. (0.015s)
+image 496/1959 /kaggle/working/yolov5/India/test/images/India_002446.jpg: 736x736 Done. (0.015s)
+image 497/1959 /kaggle/working/yolov5/India/test/images/India_002452.jpg: 736x736 Done. (0.017s)
+image 498/1959 /kaggle/working/yolov5/India/test/images/India_002453.jpg: 736x736 1 D44, Done. (0.014s)
+image 499/1959 /kaggle/working/yolov5/India/test/images/India_002454.jpg: 736x736 Done. (0.015s)
+image 500/1959 /kaggle/working/yolov5/India/test/images/India_002457.jpg: 736x736 Done. (0.016s)
+image 501/1959 /kaggle/working/yolov5/India/test/images/India_002458.jpg: 736x736 1 D20, Done. (0.015s)
+image 502/1959 /kaggle/working/yolov5/India/test/images/India_002460.jpg: 736x736 Done. (0.014s)
+image 503/1959 /kaggle/working/yolov5/India/test/images/India_002468.jpg: 736x736 Done. (0.017s)
+image 504/1959 /kaggle/working/yolov5/India/test/images/India_002476.jpg: 736x736 Done. (0.014s)
+image 505/1959 /kaggle/working/yolov5/India/test/images/India_002477.jpg: 736x736 Done. (0.015s)
+image 506/1959 /kaggle/working/yolov5/India/test/images/India_002479.jpg: 736x736 Done. (0.015s)
+image 507/1959 /kaggle/working/yolov5/India/test/images/India_002489.jpg: 736x736 Done. (0.013s)
+image 508/1959 /kaggle/working/yolov5/India/test/images/India_002491.jpg: 736x736 Done. (0.014s)
+image 509/1959 /kaggle/working/yolov5/India/test/images/India_002495.jpg: 736x736 Done. (0.017s)
+image 510/1959 /kaggle/working/yolov5/India/test/images/India_002501.jpg: 736x736 Done. (0.013s)
+image 511/1959 /kaggle/working/yolov5/India/test/images/India_002511.jpg: 736x736 Done. (0.015s)
+image 512/1959 /kaggle/working/yolov5/India/test/images/India_002513.jpg: 736x736 Done. (0.015s)
+image 513/1959 /kaggle/working/yolov5/India/test/images/India_002514.jpg: 736x736 Done. (0.014s)
+image 514/1959 /kaggle/working/yolov5/India/test/images/India_002518.jpg: 736x736 1 D20, 1 D44, Done. (0.014s)
+image 515/1959 /kaggle/working/yolov5/India/test/images/India_002529.jpg: 736x736 1 D01, 1 D20, Done. (0.017s)
+image 516/1959 /kaggle/working/yolov5/India/test/images/India_002531.jpg: 736x736 1 D20, Done. (0.016s)
+image 517/1959 /kaggle/working/yolov5/India/test/images/India_002542.jpg: 736x736 Done. (0.015s)
+image 518/1959 /kaggle/working/yolov5/India/test/images/India_002545.jpg: 736x736 Done. (0.014s)
+image 519/1959 /kaggle/working/yolov5/India/test/images/India_002559.jpg: 736x736 Done. (0.017s)
+image 520/1959 /kaggle/working/yolov5/India/test/images/India_002561.jpg: 736x736 2 D00s, 1 D20, Done. (0.015s)
+image 521/1959 /kaggle/working/yolov5/India/test/images/India_002568.jpg: 736x736 Done. (0.014s)
+image 522/1959 /kaggle/working/yolov5/India/test/images/India_002571.jpg: 736x736 1 D40, Done. (0.014s)
+image 523/1959 /kaggle/working/yolov5/India/test/images/India_002577.jpg: 736x736 Done. (0.017s)
+image 524/1959 /kaggle/working/yolov5/India/test/images/India_002584.jpg: 736x736 Done. (0.014s)
+image 525/1959 /kaggle/working/yolov5/India/test/images/India_002597.jpg: 736x736 Done. (0.015s)
+image 526/1959 /kaggle/working/yolov5/India/test/images/India_002599.jpg: 736x736 Done. (0.016s)
+image 527/1959 /kaggle/working/yolov5/India/test/images/India_002601.jpg: 736x736 Done. (0.015s)
+image 528/1959 /kaggle/working/yolov5/India/test/images/India_002626.jpg: 736x736 Done. (0.014s)
+image 529/1959 /kaggle/working/yolov5/India/test/images/India_002627.jpg: 736x736 Done. (0.017s)
+image 530/1959 /kaggle/working/yolov5/India/test/images/India_002630.jpg: 736x736 Done. (0.014s)
+image 531/1959 /kaggle/working/yolov5/India/test/images/India_002633.jpg: 736x736 Done. (0.015s)
+image 532/1959 /kaggle/working/yolov5/India/test/images/India_002634.jpg: 736x736 Done. (0.015s)
+image 533/1959 /kaggle/working/yolov5/India/test/images/India_002635.jpg: 736x736 Done. (0.015s)
+image 534/1959 /kaggle/working/yolov5/India/test/images/India_002649.jpg: 736x736 Done. (0.013s)
+image 535/1959 /kaggle/working/yolov5/India/test/images/India_002650.jpg: 736x736 Done. (0.014s)
+image 536/1959 /kaggle/working/yolov5/India/test/images/India_002651.jpg: 736x736 1 D40, Done. (0.016s)
+image 537/1959 /kaggle/working/yolov5/India/test/images/India_002660.jpg: 736x736 1 D20, Done. (0.015s)
+image 538/1959 /kaggle/working/yolov5/India/test/images/India_002661.jpg: 736x736 Done. (0.014s)
+image 539/1959 /kaggle/working/yolov5/India/test/images/India_002663.jpg: 736x736 Done. (0.015s)
+image 540/1959 /kaggle/working/yolov5/India/test/images/India_002669.jpg: 736x736 Done. (0.013s)
+image 541/1959 /kaggle/working/yolov5/India/test/images/India_002677.jpg: 736x736 Done. (0.015s)
+image 542/1959 /kaggle/working/yolov5/India/test/images/India_002682.jpg: 736x736 Done. (0.015s)
+image 543/1959 /kaggle/working/yolov5/India/test/images/India_002683.jpg: 736x736 2 D01s, Done. (0.015s)
+image 544/1959 /kaggle/working/yolov5/India/test/images/India_002684.jpg: 736x736 Done. (0.014s)
+image 545/1959 /kaggle/working/yolov5/India/test/images/India_002687.jpg: 736x736 Done. (0.013s)
+image 546/1959 /kaggle/working/yolov5/India/test/images/India_002688.jpg: 736x736 Done. (0.016s)
+image 547/1959 /kaggle/working/yolov5/India/test/images/India_002691.jpg: 736x736 Done. (0.015s)
+image 548/1959 /kaggle/working/yolov5/India/test/images/India_002694.jpg: 736x736 Done. (0.015s)
+image 549/1959 /kaggle/working/yolov5/India/test/images/India_002701.jpg: 736x736 Done. (0.015s)
+image 550/1959 /kaggle/working/yolov5/India/test/images/India_002707.jpg: 736x736 Done. (0.014s)
+image 551/1959 /kaggle/working/yolov5/India/test/images/India_002709.jpg: 736x736 1 D40, 1 D44, Done. (0.014s)
+image 552/1959 /kaggle/working/yolov5/India/test/images/India_002715.jpg: 736x736 1 D40, 1 D44, Done. (0.015s)
+image 553/1959 /kaggle/working/yolov5/India/test/images/India_002721.jpg: 736x736 1 D20, Done. (0.014s)
+image 554/1959 /kaggle/working/yolov5/India/test/images/India_002728.jpg: 736x736 1 D44, Done. (0.013s)
+image 555/1959 /kaggle/working/yolov5/India/test/images/India_002731.jpg: 736x736 Done. (0.016s)
+image 556/1959 /kaggle/working/yolov5/India/test/images/India_002738.jpg: 736x736 Done. (0.013s)
+image 557/1959 /kaggle/working/yolov5/India/test/images/India_002740.jpg: 736x736 1 D20, Done. (0.013s)
+image 558/1959 /kaggle/working/yolov5/India/test/images/India_002744.jpg: 736x736 Done. (0.016s)
+image 559/1959 /kaggle/working/yolov5/India/test/images/India_002758.jpg: 736x736 Done. (0.013s)
+image 560/1959 /kaggle/working/yolov5/India/test/images/India_002760.jpg: 736x736 Done. (0.014s)
+image 561/1959 /kaggle/working/yolov5/India/test/images/India_002761.jpg: 736x736 1 D40, Done. (0.015s)
+image 562/1959 /kaggle/working/yolov5/India/test/images/India_002764.jpg: 736x736 Done. (0.013s)
+image 563/1959 /kaggle/working/yolov5/India/test/images/India_002769.jpg: 736x736 Done. (0.013s)
+image 564/1959 /kaggle/working/yolov5/India/test/images/India_002773.jpg: 736x736 1 D20, 1 D44, Done. (0.017s)
+image 565/1959 /kaggle/working/yolov5/India/test/images/India_002778.jpg: 736x736 1 D00, 1 D44, Done. (0.027s)
+image 566/1959 /kaggle/working/yolov5/India/test/images/India_002779.jpg: 736x736 3 D00s, Done. (0.015s)
+image 567/1959 /kaggle/working/yolov5/India/test/images/India_002783.jpg: 736x736 2 D40s, Done. (0.014s)
+image 568/1959 /kaggle/working/yolov5/India/test/images/India_002785.jpg: 736x736 Done. (0.013s)
+image 569/1959 /kaggle/working/yolov5/India/test/images/India_002791.jpg: 736x736 Done. (0.014s)
+image 570/1959 /kaggle/working/yolov5/India/test/images/India_002794.jpg: 736x736 Done. (0.020s)
+image 571/1959 /kaggle/working/yolov5/India/test/images/India_002800.jpg: 736x736 Done. (0.013s)
+image 572/1959 /kaggle/working/yolov5/India/test/images/India_002802.jpg: 736x736 Done. (0.014s)
+image 573/1959 /kaggle/working/yolov5/India/test/images/India_002805.jpg: 736x736 Done. (0.013s)
+image 574/1959 /kaggle/working/yolov5/India/test/images/India_002807.jpg: 736x736 1 D40, Done. (0.013s)
+image 575/1959 /kaggle/working/yolov5/India/test/images/India_002809.jpg: 736x736 1 D44, Done. (0.014s)
+image 576/1959 /kaggle/working/yolov5/India/test/images/India_002812.jpg: 736x736 Done. (0.013s)
+image 577/1959 /kaggle/working/yolov5/India/test/images/India_002814.jpg: 736x736 1 D20, 2 D40s, Done. (0.014s)
+image 578/1959 /kaggle/working/yolov5/India/test/images/India_002826.jpg: 736x736 Done. (0.016s)
+image 579/1959 /kaggle/working/yolov5/India/test/images/India_002830.jpg: 736x736 Done. (0.013s)
+image 580/1959 /kaggle/working/yolov5/India/test/images/India_002831.jpg: 736x736 Done. (0.014s)
+image 581/1959 /kaggle/working/yolov5/India/test/images/India_002833.jpg: 736x736 Done. (0.014s)
+image 582/1959 /kaggle/working/yolov5/India/test/images/India_002848.jpg: 736x736 Done. (0.013s)
+image 583/1959 /kaggle/working/yolov5/India/test/images/India_002857.jpg: 736x736 1 D00, 1 D20, Done. (0.015s)
+image 584/1959 /kaggle/working/yolov5/India/test/images/India_002861.jpg: 736x736 Done. (0.013s)
+image 585/1959 /kaggle/working/yolov5/India/test/images/India_002866.jpg: 736x736 Done. (0.013s)
+image 586/1959 /kaggle/working/yolov5/India/test/images/India_002872.jpg: 736x736 Done. (0.014s)
+image 587/1959 /kaggle/working/yolov5/India/test/images/India_002874.jpg: 736x736 Done. (0.014s)
+image 588/1959 /kaggle/working/yolov5/India/test/images/India_002876.jpg: 736x736 2 D40s, Done. (0.013s)
+image 589/1959 /kaggle/working/yolov5/India/test/images/India_002879.jpg: 736x736 Done. (0.014s)
+image 590/1959 /kaggle/working/yolov5/India/test/images/India_002887.jpg: 736x736 Done. (0.014s)
+image 591/1959 /kaggle/working/yolov5/India/test/images/India_002888.jpg: 736x736 Done. (0.014s)
+image 592/1959 /kaggle/working/yolov5/India/test/images/India_002897.jpg: 736x736 Done. (0.014s)
+image 593/1959 /kaggle/working/yolov5/India/test/images/India_002902.jpg: 736x736 Done. (0.013s)
+image 594/1959 /kaggle/working/yolov5/India/test/images/India_002908.jpg: 736x736 1 D00, 1 D20, Done. (0.014s)
+image 595/1959 /kaggle/working/yolov5/India/test/images/India_002911.jpg: 736x736 Done. (0.016s)
+image 596/1959 /kaggle/working/yolov5/India/test/images/India_002918.jpg: 736x736 5 D00s, Done. (0.014s)
+image 597/1959 /kaggle/working/yolov5/India/test/images/India_002920.jpg: 736x736 Done. (0.035s)
+image 598/1959 /kaggle/working/yolov5/India/test/images/India_002927.jpg: 736x736 Done. (0.015s)
+image 599/1959 /kaggle/working/yolov5/India/test/images/India_002928.jpg: 736x736 Done. (0.014s)
+image 600/1959 /kaggle/working/yolov5/India/test/images/India_002929.jpg: 736x736 Done. (0.013s)
+image 601/1959 /kaggle/working/yolov5/India/test/images/India_002933.jpg: 736x736 1 D44, Done. (0.015s)
+image 602/1959 /kaggle/working/yolov5/India/test/images/India_002940.jpg: 736x736 Done. (0.031s)
+image 603/1959 /kaggle/working/yolov5/India/test/images/India_002951.jpg: 736x736 Done. (0.017s)
+image 604/1959 /kaggle/working/yolov5/India/test/images/India_002952.jpg: 736x736 Done. (0.014s)
+image 605/1959 /kaggle/working/yolov5/India/test/images/India_002959.jpg: 736x736 1 D00, Done. (0.016s)
+image 606/1959 /kaggle/working/yolov5/India/test/images/India_002964.jpg: 736x736 1 D00, Done. (0.019s)
+image 607/1959 /kaggle/working/yolov5/India/test/images/India_002977.jpg: 736x736 2 D40s, Done. (0.022s)
+image 608/1959 /kaggle/working/yolov5/India/test/images/India_002982.jpg: 736x736 1 D40, Done. (0.021s)
+image 609/1959 /kaggle/working/yolov5/India/test/images/India_002986.jpg: 736x736 1 D40, Done. (0.021s)
+image 610/1959 /kaggle/working/yolov5/India/test/images/India_002988.jpg: 736x736 Done. (0.021s)
+image 611/1959 /kaggle/working/yolov5/India/test/images/India_002990.jpg: 736x736 Done. (0.020s)
+image 612/1959 /kaggle/working/yolov5/India/test/images/India_002996.jpg: 736x736 Done. (0.021s)
+image 613/1959 /kaggle/working/yolov5/India/test/images/India_002999.jpg: 736x736 1 D40, Done. (0.020s)
+image 614/1959 /kaggle/working/yolov5/India/test/images/India_003003.jpg: 736x736 1 D44, Done. (0.021s)
+image 615/1959 /kaggle/working/yolov5/India/test/images/India_003005.jpg: 736x736 1 D40, Done. (0.019s)
+image 616/1959 /kaggle/working/yolov5/India/test/images/India_003008.jpg: 736x736 1 D44, Done. (0.025s)
+image 617/1959 /kaggle/working/yolov5/India/test/images/India_003009.jpg: 736x736 1 D20, 1 D44, Done. (0.015s)
+image 618/1959 /kaggle/working/yolov5/India/test/images/India_003019.jpg: 736x736 1 D44, Done. (0.015s)
+image 619/1959 /kaggle/working/yolov5/India/test/images/India_003022.jpg: 736x736 Done. (0.015s)
+image 620/1959 /kaggle/working/yolov5/India/test/images/India_003024.jpg: 736x736 1 D20, Done. (0.014s)
+image 621/1959 /kaggle/working/yolov5/India/test/images/India_003025.jpg: 736x736 Done. (0.016s)
+image 622/1959 /kaggle/working/yolov5/India/test/images/India_003026.jpg: 736x736 1 D20, 2 D40s, Done. (0.016s)
+image 623/1959 /kaggle/working/yolov5/India/test/images/India_003031.jpg: 736x736 Done. (0.014s)
+image 624/1959 /kaggle/working/yolov5/India/test/images/India_003037.jpg: 736x736 Done. (0.015s)
+image 625/1959 /kaggle/working/yolov5/India/test/images/India_003038.jpg: 736x736 Done. (0.015s)
+image 626/1959 /kaggle/working/yolov5/India/test/images/India_003040.jpg: 736x736 Done. (0.015s)
+image 627/1959 /kaggle/working/yolov5/India/test/images/India_003050.jpg: 736x736 1 D00, 1 D40, Done. (0.014s)
+image 628/1959 /kaggle/working/yolov5/India/test/images/India_003061.jpg: 736x736 3 D00s, Done. (0.017s)
+image 629/1959 /kaggle/working/yolov5/India/test/images/India_003067.jpg: 736x736 1 D44, Done. (0.014s)
+image 630/1959 /kaggle/working/yolov5/India/test/images/India_003089.jpg: 736x736 Done. (0.014s)
+image 631/1959 /kaggle/working/yolov5/India/test/images/India_003095.jpg: 736x736 1 D40, 1 D44, Done. (0.015s)
+image 632/1959 /kaggle/working/yolov5/India/test/images/India_003099.jpg: 736x736 1 D20, Done. (0.013s)
+image 633/1959 /kaggle/working/yolov5/India/test/images/India_003104.jpg: 736x736 Done. (0.013s)
+image 634/1959 /kaggle/working/yolov5/India/test/images/India_003105.jpg: 736x736 1 D20, Done. (0.015s)
+image 635/1959 /kaggle/working/yolov5/India/test/images/India_003108.jpg: 736x736 Done. (0.015s)
+image 636/1959 /kaggle/working/yolov5/India/test/images/India_003109.jpg: 736x736 Done. (0.013s)
+image 637/1959 /kaggle/working/yolov5/India/test/images/India_003132.jpg: 736x736 Done. (0.014s)
+image 638/1959 /kaggle/working/yolov5/India/test/images/India_003145.jpg: 736x736 Done. (0.013s)
+image 639/1959 /kaggle/working/yolov5/India/test/images/India_003154.jpg: 736x736 Done. (0.014s)
+image 640/1959 /kaggle/working/yolov5/India/test/images/India_003157.jpg: 736x736 Done. (0.015s)
+image 641/1959 /kaggle/working/yolov5/India/test/images/India_003166.jpg: 736x736 2 D00s, Done. (0.017s)
+image 642/1959 /kaggle/working/yolov5/India/test/images/India_003167.jpg: 736x736 Done. (0.013s)
+image 643/1959 /kaggle/working/yolov5/India/test/images/India_003189.jpg: 736x736 Done. (0.015s)
+image 644/1959 /kaggle/working/yolov5/India/test/images/India_003202.jpg: 736x736 Done. (0.015s)
+image 645/1959 /kaggle/working/yolov5/India/test/images/India_003204.jpg: 736x736 2 D40s, Done. (0.014s)
+image 646/1959 /kaggle/working/yolov5/India/test/images/India_003206.jpg: 736x736 Done. (0.015s)
+image 647/1959 /kaggle/working/yolov5/India/test/images/India_003209.jpg: 736x736 1 D40, Done. (0.017s)
+image 648/1959 /kaggle/working/yolov5/India/test/images/India_003210.jpg: 736x736 1 D00, 1 D40, Done. (0.014s)
+image 649/1959 /kaggle/working/yolov5/India/test/images/India_003212.jpg: 736x736 1 D44, Done. (0.014s)
+image 650/1959 /kaggle/working/yolov5/India/test/images/India_003222.jpg: 736x736 Done. (0.016s)
+image 651/1959 /kaggle/working/yolov5/India/test/images/India_003223.jpg: 736x736 Done. (0.015s)
+image 652/1959 /kaggle/working/yolov5/India/test/images/India_003226.jpg: 736x736 Done. (0.013s)
+image 653/1959 /kaggle/working/yolov5/India/test/images/India_003227.jpg: 736x736 Done. (0.016s)
+image 654/1959 /kaggle/working/yolov5/India/test/images/India_003229.jpg: 736x736 Done. (0.015s)
+image 655/1959 /kaggle/working/yolov5/India/test/images/India_003235.jpg: 736x736 1 D00, Done. (0.015s)
+image 656/1959 /kaggle/working/yolov5/India/test/images/India_003238.jpg: 736x736 Done. (0.013s)
+image 657/1959 /kaggle/working/yolov5/India/test/images/India_003241.jpg: 736x736 Done. (0.015s)
+image 658/1959 /kaggle/working/yolov5/India/test/images/India_003255.jpg: 736x736 1 D01, Done. (0.014s)
+image 659/1959 /kaggle/working/yolov5/India/test/images/India_003258.jpg: 736x736 Done. (0.013s)
+image 660/1959 /kaggle/working/yolov5/India/test/images/India_003264.jpg: 736x736 1 D00, 2 D40s, Done. (0.015s)
+image 661/1959 /kaggle/working/yolov5/India/test/images/India_003267.jpg: 736x736 Done. (0.014s)
+image 662/1959 /kaggle/working/yolov5/India/test/images/India_003271.jpg: 736x736 1 D00, 1 D40, Done. (0.013s)
+image 663/1959 /kaggle/working/yolov5/India/test/images/India_003277.jpg: 736x736 1 D00, 1 D44, Done. (0.015s)
+image 664/1959 /kaggle/working/yolov5/India/test/images/India_003279.jpg: 736x736 Done. (0.013s)
+image 665/1959 /kaggle/working/yolov5/India/test/images/India_003280.jpg: 736x736 Done. (0.013s)
+image 666/1959 /kaggle/working/yolov5/India/test/images/India_003295.jpg: 736x736 Done. (0.015s)
+image 667/1959 /kaggle/working/yolov5/India/test/images/India_003298.jpg: 736x736 1 D20, 2 D40s, Done. (0.014s)
+image 668/1959 /kaggle/working/yolov5/India/test/images/India_003304.jpg: 736x736 1 D20, Done. (0.015s)
+image 669/1959 /kaggle/working/yolov5/India/test/images/India_003308.jpg: 736x736 Done. (0.016s)
+image 670/1959 /kaggle/working/yolov5/India/test/images/India_003322.jpg: 736x736 Done. (0.015s)
+image 671/1959 /kaggle/working/yolov5/India/test/images/India_003325.jpg: 736x736 1 D20, 1 D40, Done. (0.015s)
+image 672/1959 /kaggle/working/yolov5/India/test/images/India_003332.jpg: 736x736 1 D20, Done. (0.014s)
+image 673/1959 /kaggle/working/yolov5/India/test/images/India_003333.jpg: 736x736 1 D40, Done. (0.016s)
+image 674/1959 /kaggle/working/yolov5/India/test/images/India_003335.jpg: 736x736 Done. (0.016s)
+image 675/1959 /kaggle/working/yolov5/India/test/images/India_003336.jpg: 736x736 Done. (0.014s)
+image 676/1959 /kaggle/working/yolov5/India/test/images/India_003341.jpg: 736x736 Done. (0.016s)
+image 677/1959 /kaggle/working/yolov5/India/test/images/India_003350.jpg: 736x736 Done. (0.014s)
+image 678/1959 /kaggle/working/yolov5/India/test/images/India_003355.jpg: 736x736 Done. (0.014s)
+image 679/1959 /kaggle/working/yolov5/India/test/images/India_003357.jpg: 736x736 1 D44, Done. (0.017s)
+image 680/1959 /kaggle/working/yolov5/India/test/images/India_003367.jpg: 736x736 1 D20, Done. (0.016s)
+image 681/1959 /kaggle/working/yolov5/India/test/images/India_003369.jpg: 736x736 1 D20, Done. (0.014s)
+image 682/1959 /kaggle/working/yolov5/India/test/images/India_003371.jpg: 736x736 1 D01, Done. (0.013s)
+image 683/1959 /kaggle/working/yolov5/India/test/images/India_003375.jpg: 736x736 Done. (0.016s)
+image 684/1959 /kaggle/working/yolov5/India/test/images/India_003380.jpg: 736x736 1 D01, Done. (0.013s)
+image 685/1959 /kaggle/working/yolov5/India/test/images/India_003390.jpg: 736x736 Done. (0.013s)
+image 686/1959 /kaggle/working/yolov5/India/test/images/India_003393.jpg: 736x736 1 D20, Done. (0.015s)
+image 687/1959 /kaggle/working/yolov5/India/test/images/India_003396.jpg: 736x736 1 D01, Done. (0.014s)
+image 688/1959 /kaggle/working/yolov5/India/test/images/India_003419.jpg: 736x736 Done. (0.013s)
+image 689/1959 /kaggle/working/yolov5/India/test/images/India_003423.jpg: 736x736 1 D40, Done. (0.015s)
+image 690/1959 /kaggle/working/yolov5/India/test/images/India_003439.jpg: 736x736 Done. (0.015s)
+image 691/1959 /kaggle/working/yolov5/India/test/images/India_003440.jpg: 736x736 1 D00, Done. (0.015s)
+image 692/1959 /kaggle/working/yolov5/India/test/images/India_003441.jpg: 736x736 Done. (0.015s)
+image 693/1959 /kaggle/working/yolov5/India/test/images/India_003442.jpg: 736x736 1 D44, Done. (0.015s)
+image 694/1959 /kaggle/working/yolov5/India/test/images/India_003448.jpg: 736x736 Done. (0.015s)
+image 695/1959 /kaggle/working/yolov5/India/test/images/India_003450.jpg: 736x736 1 D40, Done. (0.015s)
+image 696/1959 /kaggle/working/yolov5/India/test/images/India_003470.jpg: 736x736 1 D00, Done. (0.016s)
+image 697/1959 /kaggle/working/yolov5/India/test/images/India_003476.jpg: 736x736 Done. (0.014s)
+image 698/1959 /kaggle/working/yolov5/India/test/images/India_003477.jpg: 736x736 Done. (0.015s)
+image 699/1959 /kaggle/working/yolov5/India/test/images/India_003484.jpg: 736x736 1 D20, Done. (0.016s)
+image 700/1959 /kaggle/working/yolov5/India/test/images/India_003487.jpg: 736x736 Done. (0.013s)
+image 701/1959 /kaggle/working/yolov5/India/test/images/India_003492.jpg: 736x736 Done. (0.014s)
+image 702/1959 /kaggle/working/yolov5/India/test/images/India_003497.jpg: 736x736 2 D20s, Done. (0.015s)
+image 703/1959 /kaggle/working/yolov5/India/test/images/India_003504.jpg: 736x736 3 D00s, Done. (0.013s)
+image 704/1959 /kaggle/working/yolov5/India/test/images/India_003510.jpg: 736x736 Done. (0.015s)
+image 705/1959 /kaggle/working/yolov5/India/test/images/India_003511.jpg: 736x736 1 D40, Done. (0.015s)
+image 706/1959 /kaggle/working/yolov5/India/test/images/India_003518.jpg: 736x736 Done. (0.014s)
+image 707/1959 /kaggle/working/yolov5/India/test/images/India_003524.jpg: 736x736 1 D44, Done. (0.014s)
+image 708/1959 /kaggle/working/yolov5/India/test/images/India_003529.jpg: 736x736 Done. (0.016s)
+image 709/1959 /kaggle/working/yolov5/India/test/images/India_003531.jpg: 736x736 Done. (0.016s)
+image 710/1959 /kaggle/working/yolov5/India/test/images/India_003534.jpg: 736x736 3 D40s, Done. (0.015s)
+image 711/1959 /kaggle/working/yolov5/India/test/images/India_003544.jpg: 736x736 1 D20, Done. (0.015s)
+image 712/1959 /kaggle/working/yolov5/India/test/images/India_003549.jpg: 736x736 Done. (0.017s)
+image 713/1959 /kaggle/working/yolov5/India/test/images/India_003555.jpg: 736x736 Done. (0.013s)
+image 714/1959 /kaggle/working/yolov5/India/test/images/India_003559.jpg: 736x736 1 D20, 3 D40s, Done. (0.015s)
+image 715/1959 /kaggle/working/yolov5/India/test/images/India_003562.jpg: 736x736 Done. (0.015s)
+image 716/1959 /kaggle/working/yolov5/India/test/images/India_003563.jpg: 736x736 1 D20, 1 D44, Done. (0.016s)
+image 717/1959 /kaggle/working/yolov5/India/test/images/India_003574.jpg: 736x736 1 D20, 1 D44, Done. (0.015s)
+image 718/1959 /kaggle/working/yolov5/India/test/images/India_003582.jpg: 736x736 Done. (0.014s)
+image 719/1959 /kaggle/working/yolov5/India/test/images/India_003584.jpg: 736x736 3 D40s, Done. (0.017s)
+image 720/1959 /kaggle/working/yolov5/India/test/images/India_003588.jpg: 736x736 1 D00, Done. (0.014s)
+image 721/1959 /kaggle/working/yolov5/India/test/images/India_003590.jpg: 736x736 1 D00, 2 D40s, Done. (0.015s)
+image 722/1959 /kaggle/working/yolov5/India/test/images/India_003596.jpg: 736x736 Done. (0.015s)
+image 723/1959 /kaggle/working/yolov5/India/test/images/India_003600.jpg: 736x736 1 D40, Done. (0.015s)
+image 724/1959 /kaggle/working/yolov5/India/test/images/India_003603.jpg: 736x736 1 D44, Done. (0.014s)
+image 725/1959 /kaggle/working/yolov5/India/test/images/India_003604.jpg: 736x736 1 D44, Done. (0.015s)
+image 726/1959 /kaggle/working/yolov5/India/test/images/India_003607.jpg: 736x736 Done. (0.016s)
+image 727/1959 /kaggle/working/yolov5/India/test/images/India_003612.jpg: 736x736 1 D44, Done. (0.014s)
+image 728/1959 /kaggle/working/yolov5/India/test/images/India_003613.jpg: 736x736 Done. (0.015s)
+image 729/1959 /kaggle/working/yolov5/India/test/images/India_003615.jpg: 736x736 Done. (0.015s)
+image 730/1959 /kaggle/working/yolov5/India/test/images/India_003620.jpg: 736x736 1 D44, Done. (0.016s)
+image 731/1959 /kaggle/working/yolov5/India/test/images/India_003625.jpg: 736x736 1 D44, Done. (0.014s)
+image 732/1959 /kaggle/working/yolov5/India/test/images/India_003630.jpg: 736x736 Done. (0.015s)
+image 733/1959 /kaggle/working/yolov5/India/test/images/India_003638.jpg: 736x736 1 D00, 1 D20, 1 D40, Done. (0.015s)
+image 734/1959 /kaggle/working/yolov5/India/test/images/India_003650.jpg: 736x736 Done. (0.015s)
+image 735/1959 /kaggle/working/yolov5/India/test/images/India_003655.jpg: 736x736 Done. (0.014s)
+image 736/1959 /kaggle/working/yolov5/India/test/images/India_003657.jpg: 736x736 Done. (0.017s)
+image 737/1959 /kaggle/working/yolov5/India/test/images/India_003664.jpg: 736x736 1 D20, 1 D44, Done. (0.015s)
+image 738/1959 /kaggle/working/yolov5/India/test/images/India_003666.jpg: 736x736 1 D00, Done. (0.014s)
+image 739/1959 /kaggle/working/yolov5/India/test/images/India_003675.jpg: 736x736 Done. (0.015s)
+image 740/1959 /kaggle/working/yolov5/India/test/images/India_003685.jpg: 736x736 Done. (0.016s)
+image 741/1959 /kaggle/working/yolov5/India/test/images/India_003689.jpg: 736x736 1 D20, 1 D44, Done. (0.015s)
+image 742/1959 /kaggle/working/yolov5/India/test/images/India_003694.jpg: 736x736 Done. (0.016s)
+image 743/1959 /kaggle/working/yolov5/India/test/images/India_003707.jpg: 736x736 Done. (0.016s)
+image 744/1959 /kaggle/working/yolov5/India/test/images/India_003723.jpg: 736x736 Done. (0.014s)
+image 745/1959 /kaggle/working/yolov5/India/test/images/India_003725.jpg: 736x736 4 D40s, Done. (0.015s)
+image 746/1959 /kaggle/working/yolov5/India/test/images/India_003729.jpg: 736x736 Done. (0.015s)
+image 747/1959 /kaggle/working/yolov5/India/test/images/India_003730.jpg: 736x736 1 D20, 3 D40s, Done. (0.015s)
+image 748/1959 /kaggle/working/yolov5/India/test/images/India_003735.jpg: 736x736 Done. (0.015s)
+image 749/1959 /kaggle/working/yolov5/India/test/images/India_003737.jpg: 736x736 Done. (0.014s)
+image 750/1959 /kaggle/working/yolov5/India/test/images/India_003743.jpg: 736x736 Done. (0.016s)
+image 751/1959 /kaggle/working/yolov5/India/test/images/India_003748.jpg: 736x736 1 D44, Done. (0.014s)
+image 752/1959 /kaggle/working/yolov5/India/test/images/India_003762.jpg: 736x736 Done. (0.014s)
+image 753/1959 /kaggle/working/yolov5/India/test/images/India_003771.jpg: 736x736 Done. (0.015s)
+image 754/1959 /kaggle/working/yolov5/India/test/images/India_003777.jpg: 736x736 1 D44, Done. (0.014s)
+image 755/1959 /kaggle/working/yolov5/India/test/images/India_003779.jpg: 736x736 Done. (0.014s)
+image 756/1959 /kaggle/working/yolov5/India/test/images/India_003781.jpg: 736x736 Done. (0.016s)
+image 757/1959 /kaggle/working/yolov5/India/test/images/India_003786.jpg: 736x736 Done. (0.014s)
+image 758/1959 /kaggle/working/yolov5/India/test/images/India_003790.jpg: 736x736 Done. (0.015s)
+image 759/1959 /kaggle/working/yolov5/India/test/images/India_003794.jpg: 736x736 Done. (0.016s)
+image 760/1959 /kaggle/working/yolov5/India/test/images/India_003798.jpg: 736x736 Done. (0.014s)
+image 761/1959 /kaggle/working/yolov5/India/test/images/India_003799.jpg: 736x736 1 D00, 3 D40s, Done. (0.014s)
+image 762/1959 /kaggle/working/yolov5/India/test/images/India_003801.jpg: 736x736 Done. (0.015s)
+...
+TRAINING:
+train: weights=yolov5s.pt, cfg=models/yolov5s.yaml, data=roaddamage2022.yaml, hyp=data/hyps/hyp.scratch-low.yaml, epochs=100, batch_size=8, imgsz=720, rect=False, resume=False, nosave=False, noval=False, noautoanchor=False, noplots=False, evolve=None, bucket=, cache=None, image_weights=False, device=, multi_scale=False, single_cls=False, optimizer=SGD, sync_bn=False, workers=8, project=runs/train, name=exp, exist_ok=False, quad=False, cos_lr=False, label_smoothing=0.0, patience=100, freeze=[0], save_period=-1, seed=0, local_rank=-1, entity=None, upload_dataset=False, bbox_interval=-1, artifact_alias=latest
+github: up to date with https://github.com/rkuo2000/yolov5 ✅
+YOLOv5 🚀 v6.1-303-gb3ca8d8 Python-3.7.12 torch-1.11.0 CUDA:0 (Tesla T4, 15110MiB)
+
+hyperparameters: lr0=0.01, lrf=0.01, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=0.05, cls=0.5, cls_pw=1.0, obj=1.0, obj_pw=1.0, iou_t=0.2, anchor_t=4.0, fl_gamma=0.0, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, mosaic=1.0, mixup=0.0, copy_paste=0.0
+Weights & Biases: run 'pip install wandb' to automatically track and visualize YOLOv5 🚀 runs (RECOMMENDED)
+TensorBoard: Start with 'tensorboard --logdir runs/train', view at http://localhost:6006/
+Downloading https://ultralytics.com/assets/Arial.ttf to /root/.config/Ultralytics/Arial.ttf...
+100%|████████████████████████████████████████| 755k/755k [00:00<00:00, 16.1MB/s]
+Downloading https://github.com/ultralytics/yolov5/releases/download/v6.1/yolov5s.pt to yolov5s.pt...
+100%|███████████████████████████████████████| 14.1M/14.1M [00:00<00:00, 126MB/s]
+
+Overriding model.yaml nc=80 with nc=8
+
+                 from  n    params  module                                  arguments                     
+  0                -1  1      3520  models.common.Conv                      [3, 32, 6, 2, 2]              
+  1                -1  1     18560  models.common.Conv                      [32, 64, 3, 2]                
+  2                -1  1     18816  models.common.C3                        [64, 64, 1]                   
+  3                -1  1     73984  models.common.Conv                      [64, 128, 3, 2]               
+  4                -1  2    115712  models.common.C3                        [128, 128, 2]                 
+  5                -1  1    295424  models.common.Conv                      [128, 256, 3, 2]              
+  6                -1  3    625152  models.common.C3                        [256, 256, 3]                 
+  7                -1  1   1180672  models.common.Conv                      [256, 512, 3, 2]              
+  8                -1  1   1182720  models.common.C3                        [512, 512, 1]                 
+  9                -1  1    656896  models.common.SPPF                      [512, 512, 5]                 
+ 10                -1  1    131584  models.common.Conv                      [512, 256, 1, 1]              
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']          
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]                           
+ 13                -1  1    361984  models.common.C3                        [512, 256, 1, False]          
+ 14                -1  1     33024  models.common.Conv                      [256, 128, 1, 1]              
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']          
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]                           
+ 17                -1  1     90880  models.common.C3                        [256, 128, 1, False]          
+ 18                -1  1    147712  models.common.Conv                      [128, 128, 3, 2]              
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]                           
+ 20                -1  1    296448  models.common.C3                        [256, 256, 1, False]          
+ 21                -1  1    590336  models.common.Conv                      [256, 256, 3, 2]              
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]                           
+ 23                -1  1   1182720  models.common.C3                        [512, 512, 1, False]          
+ 24      [17, 20, 23]  1     35061  models.yolo.Detect                      [8, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [128, 256, 512]]
+YOLOv5s summary: 270 layers, 7041205 parameters, 7041205 gradients
+
+Transferred 342/349 items from yolov5s.pt
+AMP: checks passed ✅
+WARNING: --img-size 720 must be multiple of max stride 32, updating to 736
+Scaled weight_decay = 0.0005
+optimizer: SGD with parameter groups 57 weight (no decay), 60 weight, 60 bias
+WARNING: DP not recommended, use torch.distributed.run for best DDP Multi-GPU results.
+See Multi-GPU Tutorial at https://github.com/ultralytics/yolov5/issues/475 to get started.
+albumentations: Blur(always_apply=False, p=0.01, blur_limit=(3, 7)), MedianBlur(always_apply=False, p=0.01, blur_limit=(3, 7)), ToGray(always_apply=False, p=0.01), CLAHE(always_apply=False, p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))
+train: Scanning '/kaggle/working/yolov5/India/train/labels' images and labels...
+train: New cache created: /kaggle/working/yolov5/India/train/labels.cache
+val: Scanning '/kaggle/working/yolov5/India/valid/labels' images and labels...12
+val: New cache created: /kaggle/working/yolov5/India/valid/labels.cache
+Plotting labels to runs/train/exp/labels.jpg... 
+
+AutoAnchor: 4.63 anchors/target, 1.000 Best Possible Recall (BPR). Current anchors are a good fit to dataset ✅
+Image sizes 736 train, 736 val
+Using 1 dataloader workers
+Logging results to runs/train/exp
+Starting training for 100 epochs...
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+      0/99     1.36G   0.08248   0.02075   0.04407         6       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411    0.00197      0.383     0.0161    0.00467
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+      1/99     1.89G   0.06864   0.01795   0.03078         0       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.619      0.029     0.0169    0.00588
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+      2/99     1.89G   0.06708   0.01679   0.02876         3       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.554     0.0589     0.0265    0.00902
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+      3/99     1.89G   0.06619   0.01664   0.02814         0       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.587     0.0901     0.0464     0.0148
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+      4/99     1.89G   0.06383   0.01617   0.02652         3       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.633      0.139     0.0895     0.0309
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+      5/99     1.89G   0.06215   0.01628   0.02564         5       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.613      0.111     0.0779     0.0264
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+      6/99     1.89G   0.06146    0.0164   0.02424         3       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.642      0.132      0.106     0.0374
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+      7/99     1.89G   0.06025   0.01645    0.0236         3       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411       0.65      0.129      0.117     0.0438
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+      8/99     1.89G   0.05951   0.01623   0.02252         5       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.519       0.16        0.1     0.0346
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+      9/99     1.89G    0.0586    0.0162    0.0227         3       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411        0.5      0.169       0.12     0.0438
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     10/99     1.89G   0.05865   0.01553   0.02195         2       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.526      0.174      0.125     0.0432
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     11/99     1.89G   0.05802   0.01553   0.02123         2       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.556      0.197       0.15     0.0533
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     12/99     1.89G    0.0576   0.01557    0.0203         5       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.558      0.215      0.154      0.058
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     13/99     1.89G   0.05671   0.01572   0.02024         5       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.541      0.169      0.151     0.0536
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     14/99     1.89G   0.05691   0.01569   0.01957         5       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.545      0.226      0.135     0.0474
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     15/99     1.89G   0.05666   0.01565   0.01926         4       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.578        0.2      0.167     0.0607
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     16/99     1.89G   0.05614   0.01502   0.01875         4       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.612      0.198      0.186      0.066
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     17/99     1.89G   0.05584   0.01588   0.01858         4       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.602       0.24      0.178     0.0657
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     18/99      1.9G    0.0548   0.01517   0.01846         9       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.573      0.249      0.176     0.0652
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     19/99      1.9G   0.05459   0.01542   0.01759         3       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.557      0.249      0.164      0.062
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     20/99      1.9G   0.05489   0.01562   0.01746         4       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411       0.59      0.255      0.183     0.0664
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     21/99      1.9G   0.05478   0.01557   0.01711         7       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.596      0.236      0.165     0.0624
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     22/99      1.9G     0.054   0.01524   0.01645         2       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.607       0.22      0.185     0.0735
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     23/99      1.9G    0.0541   0.01528   0.01629         3       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.596       0.24      0.179     0.0674
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     24/99      1.9G   0.05403   0.01532   0.01633         8       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411       0.59      0.268      0.186     0.0728
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     25/99      1.9G    0.0534   0.01496   0.01605         6       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.593      0.264      0.178     0.0646
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     26/99      1.9G   0.05363   0.01491   0.01618         9       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.608      0.241      0.198     0.0766
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     27/99      1.9G   0.05242   0.01492    0.0154         3       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.596      0.264      0.209     0.0802
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     28/99      1.9G   0.05329    0.0151   0.01527         3       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.601      0.289      0.228     0.0896
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     29/99      1.9G   0.05237   0.01486   0.01464         1       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.631      0.265      0.214     0.0872
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     30/99      1.9G   0.05204   0.01492   0.01483         4       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.605      0.237      0.205     0.0757
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     31/99      1.9G   0.05194   0.01426   0.01502         2       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.624      0.236      0.236     0.0875
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     32/99      1.9G   0.05188   0.01486   0.01419         2       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.633      0.271      0.225     0.0871
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     33/99      1.9G   0.05145   0.01488   0.01417         7       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.649      0.261      0.264     0.0982
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     34/99      1.9G   0.05166    0.0152   0.01406         6       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.456      0.384      0.264     0.0893
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     35/99      1.9G   0.05061   0.01459   0.01352         2       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.515      0.294      0.273      0.106
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     36/99      1.9G   0.05067   0.01465   0.01334         2       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.469      0.365      0.257     0.0987
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     37/99      1.9G   0.05142    0.0147   0.01326         3       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411       0.61      0.274       0.25     0.0985
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     38/99      1.9G   0.05099   0.01479   0.01347         2       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411       0.43      0.378      0.303      0.114
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     39/99      1.9G   0.05055   0.01465   0.01334         3       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.397      0.376      0.265     0.0983
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     40/99      1.9G   0.05074   0.01463     0.013         8       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.398      0.328      0.263     0.0976
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     41/99      1.9G   0.05017   0.01437    0.0131         7       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.522      0.373       0.29      0.109
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     42/99      1.9G   0.05046    0.0147   0.01226         4       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.461      0.353      0.291      0.108
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     43/99      1.9G   0.04986    0.0148   0.01217         8       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.544      0.293      0.285      0.114
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     44/99      1.9G   0.04961   0.01476    0.0125        13       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.427      0.336      0.289      0.113
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     45/99      1.9G   0.04956   0.01425   0.01161         6       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.536      0.406      0.344      0.129
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     46/99      1.9G   0.04905   0.01445   0.01153         5       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411       0.57      0.307      0.281      0.113
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     47/99      1.9G   0.04902   0.01437   0.01172         3       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.405      0.389       0.29       0.11
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     48/99      1.9G   0.04877   0.01395   0.01138         4       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.479      0.395      0.278      0.112
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     49/99      1.9G   0.04839   0.01411   0.01116         3       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411       0.64       0.32      0.312      0.127
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+     50/99      1.9G   0.04822   0.01396   0.01119         5       736: 100%|███
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all       1287       1411      0.612      0.301      0.291      0.126
