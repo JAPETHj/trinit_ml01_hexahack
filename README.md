@@ -1,4 +1,6 @@
-clone the yolov5 model from : git clone https://github.com/rkuo2000/yolov5 . This yolo model which has been already created is used for trainig our datasets in India/train folder  and India/test is where the images directory under it will contain all data to be tested.
+REFERENCES:
+*clone the yolov5 model from : git clone https://github.com/rkuo2000/yolov5 . This yolo model which has been already created is used for trainig our datasets in 
+ India/train folder  and India/test is where the images directory under it will contain all data to be tested.
 The complete link to the kaggle workspace : https://www.kaggle.com/code/japethj/trinit-ml-01
 here we have use YOLO for damge detection specifically version 5 
 YOLO is a real-time object detection system that can detect multiple objects in an image or video. It uses a single neural network to predict bounding boxes and class probabilities for each object. 
