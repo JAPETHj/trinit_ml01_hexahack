@@ -3,7 +3,7 @@
 
 # 1) FOR DEPLOYMENTING THE MODEL TO FIREBASE
 
-# THE STEPS THAT WE HAVE FOLLOWED ARE :: 
+# THE STEPS THAT WE HAVE FOLLOWED ARE TO INTEGRATE:: 
 
 # Install the TensorFlow Lite converter:
 pip install tflite-model-maker
@@ -30,7 +30,7 @@ tflite_model = converter.convert()
 # Save the tflite model to a file
 open("tflite_model.tflite", "wb").write(tflite_model) 
 
-#2) OUR MODEL APPLICABLE FOR VIDEO DATASETS 
+#2) OUR MODEL APPLICABLE FOR VIDEO DATASETS INTEGRATION PART : 
 
 # THE PESDUO CODE OF IT
 
