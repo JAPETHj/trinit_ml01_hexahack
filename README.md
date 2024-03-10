@@ -101,3 +101,4 @@ REFERENCES:
  India/train folder  and India/test is where the images directory under it will contain all data to be tested.
 >The complete link to the kaggle workspace : https://www.kaggle.com/code/japethj/trinit-ml-01
 >The refernce kaggle notebooks that we have used is https://www.kaggle.com/code/deveshmothilall/ml-yolov5-road-damage-detection-devesh-mothilal
+>The video link of our project (In G-Drive link) :: https://drive.google.com/drive/folders/1QHtYYMM6oBpdxx30qu1UmYNIqjABep9E?usp=sharing
