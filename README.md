@@ -1,3 +1,4 @@
+clone the yolov5 model from : git clone https://github.com/rkuo2000/yolov5 . This yolo model which has been already created is used for trainig our datasets in India/train folder  and India/test is where the images directory under it will contain all data to be tested.
 The complete link to the kaggle workspace : https://www.kaggle.com/code/japethj/trinit-ml-01
 here we have use YOLO for damge detection specifically version 5 
 YOLO is a real-time object detection system that can detect multiple objects in an image or video. It uses a single neural network to predict bounding boxes and class probabilities for each object. 
@@ -61,6 +62,8 @@ Create Results Zip File:
 
 Package the generated result images and charts into a zip file for easy sharing or downloading.
 
+
+
 # BROWNIES POINTS ADDITIONAL CODE 
 
 # FOR DEPLOYMENTING THE MODEL TO FIREBASE
@@ -82,7 +85,7 @@ open("tflite_model.tflite", "wb").write(tflite_model)
 # Atlast, Python file that you we created repo is converted in to a TensorFlow model to tflite format and saved into the deployment:
 import tensorflow as tf
 
-# Load the TensorFlow model
+# Load the TensorFlow mode
 model = tf.keras.models.load_model('saved_model')
 
 # Convert the TensorFlow model to tflite format
