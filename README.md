@@ -61,11 +61,11 @@ Create Results Zip File:
 
 Package the generated result images and charts into a zip file for easy sharing or downloading.
 
-BROWNIES POINTS ADDITIONAL CODE 
+# BROWNIES POINTS ADDITIONAL CODE 
 
-FOR DEPLOYMENTING THE MODEL TO FIREBASE
+# FOR DEPLOYMENTING THE MODEL TO FIREBASE
 
-THE STEPS THAT WE HAVE FOLLOWED ARE :: 
+# THE STEPS THAT WE HAVE FOLLOWED ARE :: 
 
 # Install the TensorFlow Lite converter:
 pip install tflite-model-maker
