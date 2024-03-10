@@ -62,35 +62,3 @@ Create Results Zip File:
 
 Package the generated result images and charts into a zip file for easy sharing or downloading.
 
-
-
-# BROWNIES POINTS ADDITIONAL CODE 
-
-# FOR DEPLOYMENTING THE MODEL TO FIREBASE
-
-# THE STEPS THAT WE HAVE FOLLOWED ARE :: 
-
-# Install the TensorFlow Lite converter:
-pip install tflite-model-maker
-
-# Load the Kaggle notebook Python file.
-python kaggle_notebook.py
-
-# Convert the TensorFlow model to tflite format.
-tflite_convert --output_file tflite_model.tflite --saved_model_dir saved_model
-
-# Save the tflite model to a file.
-open("tflite_model.tflite", "wb").write(tflite_model)
-
-# Atlast, Python file that you we created repo is converted in to a TensorFlow model to tflite format and saved into the deployment:
-import tensorflow as tf
-
-# Load the TensorFlow mode
-model = tf.keras.models.load_model('saved_model')
-
-# Convert the TensorFlow model to tflite format
-converter = tf.lite.TFLiteConverter.from_keras_model(model)
-tflite_model = converter.convert()
-
-# Save the tflite model to a file
-open("tflite_model.tflite", "wb").write(tflite_model)
