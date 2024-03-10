@@ -60,3 +60,7 @@ Display sample results, including precision-recall curve, F1 score curve, precis
 Create Results Zip File:
 
 Package the generated result images and charts into a zip file for easy sharing or downloading.
+
+BROWNIES POINTS ADDITIONAL CODE 
+
+FOR DEPLOYMENTING THE MODEL TO FIREBASE
