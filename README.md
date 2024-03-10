@@ -1,8 +1,5 @@
-REFERENCES:
-*clone the yolov5 model from : git clone https://github.com/rkuo2000/yolov5 . This yolo model which has been already created is used for trainig our datasets in 
- India/train folder  and India/test is where the images directory under it will contain all data to be tested.
-The complete link to the kaggle workspace : https://www.kaggle.com/code/japethj/trinit-ml-01
-here we have use YOLO for damge detection specifically version 5 
+<----------------------------------------------------------------------------------------------------------------------------------------------------->
+Here we have use YOLOv5s for damge detection 
 YOLO is a real-time object detection system that can detect multiple objects in an image or video. It uses a single neural network to predict bounding boxes and class probabilities for each object. 
 Working:
 >Input Image: YOLO takes an input image and divides it into a grid system. Each cell in the grid is responsible for detecting objects within itself.
@@ -57,10 +54,16 @@ Create a link to download the results in a zip file.
 Test the Model:
 
 Use the trained model to perform object detection on the test set.
-Show Sample Results:
 
 Display sample results, including precision-recall curve, F1 score curve, precision curve, confusion matrix, and images with detected road damage.
 Create Results Zip File:
 
 Package the generated result images and charts into a zip file for easy sharing or downloading.
 
+
+<-------------------------------------------------------------------------------------------------------------------------------------------------------->
+REFERENCES:
+>clone the yolov5 model from : git clone https://github.com/rkuo2000/yolov5 . This yolo model which has been already created is used for trainig our datasets in 
+ India/train folder  and India/test is where the images directory under it will contain all data to be tested.
+>The complete link to the kaggle workspace : https://www.kaggle.com/code/japethj/trinit-ml-01
+>The refernce kaggle notebooks that we have used is https://www.kaggle.com/code/deveshmothilall/ml-yolov5-road-damage-detection-devesh-mothilal
