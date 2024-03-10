@@ -102,4 +102,6 @@ REFERENCES:
 >The complete link to the kaggle workspace : https://www.kaggle.com/code/japethj/trinit-ml-01
 >The refernce kaggle notebooks that we have used is https://www.kaggle.com/code/deveshmothilall/ml-yolov5-road-damage-detection-devesh-mothilal
 >
+>The Extra features as mentioned in problem statement (BROWNIE POINTS SECTION) as been kept in :: "Integration_model_firebase_deployment.md file"
+>
 >The video link of our project (In G-Drive link) :: https://drive.google.com/drive/folders/1QHtYYMM6oBpdxx30qu1UmYNIqjABep9E?usp=sharing
